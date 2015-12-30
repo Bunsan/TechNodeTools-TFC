@@ -68,14 +68,4 @@ public class ItemAlloyBlock extends ItemTerraBlock implements ISmeltable
     public ISmeltable.EnumTier getSmeltTier(ItemStack is) {
         return ISmeltable.EnumTier.TierI;
     }
-
-    public boolean placeBlockAt(ItemStack stack, EntityPlayer player, World world, int x, int y, int z, int side, float hitX, float hitY, float hitZ, int metadata)
-    {
-        if (stack.hasTagCompound() && (TFC_ItemHeat.hasTemp(stack) ||
-                stack.getTagCompound().hasKey("itemCraftingValue") && stack.getTagCompound().getShort("itemCraftingValue") != 0))
-        {
-            return false;
-        }
-        else { return true; }
-    }
 }

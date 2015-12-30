@@ -1,6 +1,5 @@
 package com.technode.technodetoolstfc.item.itemBlock;
 
-import com.technode.technodetoolstfc.core.reference.CreativeTab;
 import com.technode.technodetoolstfc.core.reference.Reference;
 
 import com.bioxx.tfc.Items.ItemBlocks.ItemTerraBlock;
@@ -19,7 +18,8 @@ public class ItemMetalBlock extends ItemTerraBlock implements ISmeltable
     public ItemMetalBlock(Block b)
     {
         super(b);
-        metaNames = Reference.METALS;
+        metaNames = new String[12];
+        System.arraycopy(Reference.METALS, 0, metaNames, 0, 12);
         setFolder("metal/");
         metalAmount = 800;
 

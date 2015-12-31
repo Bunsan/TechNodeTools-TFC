@@ -22,13 +22,13 @@ public class ItemMetalDust extends ItemMetal
     {
         super();
         this.setWeight(EnumWeight.MEDIUM);
-        this.setSize(EnumSize.TINY);
-        metalAmount = 10;
+        this.setSize(EnumSize.SMALL);
+        metalAmount = 100;
     }
 
     @Override
     public void getSubItems(Item item, CreativeTabs tabs, List list) {
-        for (int i = 0; i < 21; i++)
+        for (int i = 0; i < metaNames.length; i++)
             list.add(new ItemStack(this, 1, i));
     }
 
@@ -60,15 +60,6 @@ public class ItemMetalDust extends ItemMetal
             case 9:
             case 10:
             case 11:
-            case 12:
-            case 13:
-            case 14:
-            case 15:
-            case 16:
-            case 17:
-            case 18:
-            case 19:
-            case 20:
                 return metalAmount;
         }
         return 0;

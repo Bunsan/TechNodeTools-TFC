@@ -33,7 +33,6 @@ public class BlockMetal extends BlockTerra
         super(Material.iron);
         this.setCreativeTab(CreativeTab.TECHNODE_TAB);
         names = Reference.METALS;
-    //    System.arraycopy(Reference.METALS, 0, names, 0, 12);
         icons = new IIcon[names.length];
     }
 

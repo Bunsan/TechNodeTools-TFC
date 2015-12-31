@@ -32,8 +32,7 @@ public class BlockAlloy extends BlockTerra
     {
         super(Material.iron);
         this.setCreativeTab(CreativeTab.TECHNODE_TAB);
-        names = new String[9];
-        System.arraycopy(Reference.ALLOYS, 0, names, 0, 9);
+        names = Reference.ALLOYS;
         icons = new IIcon[names.length];
     }
 

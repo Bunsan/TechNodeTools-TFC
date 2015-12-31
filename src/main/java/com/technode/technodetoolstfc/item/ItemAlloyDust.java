@@ -1,10 +1,8 @@
 package com.technode.technodetoolstfc.item;
 
-import com.technode.technodetoolstfc.core.ModDetails;
-
 import com.bioxx.tfc.api.Enums.EnumSize;
 import com.bioxx.tfc.api.Enums.EnumWeight;
-
+import com.technode.technodetoolstfc.core.ModDetails;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -13,17 +11,16 @@ import net.minecraft.util.IIcon;
 
 import java.util.List;
 
-
-public class ItemMetalNugget extends ItemMetal
+public class ItemAlloyDust extends ItemAlloy
 {
     private short metalAmount;
 
-    public ItemMetalNugget()
+    public ItemAlloyDust()
     {
         super();
         this.setWeight(EnumWeight.MEDIUM);
-        this.setSize(EnumSize.TINY);
-        metalAmount = 10;
+        this.setSize(EnumSize.SMALL);
+        metalAmount = 100;
     }
 
     @Override
@@ -38,7 +35,7 @@ public class ItemMetalNugget extends ItemMetal
         metaIcons = new IIcon[metaNames.length];
         for(int i = 0; i < metaNames.length; i++)
         {
-            metaIcons[i] = registerer.registerIcon(ModDetails.ModID + ":" + textureFolder + metaNames[i] + " Nugget");
+            metaIcons[i] = registerer.registerIcon(ModDetails.ModID + ":" + textureFolder + metaNames[i] + " Dust");
         }
     }
 
@@ -60,6 +57,9 @@ public class ItemMetalNugget extends ItemMetal
             case 9:
             case 10:
             case 11:
+            case 12:
+            case 13:
+            case 14:
                 return metalAmount;
         }
         return 0;

@@ -33,12 +33,6 @@ tile.AlloyBlock.Sterling Silver.name=Sterling Silver Block
 #== Nugget ==
 
 item.MetalNugget.Bismuth.name=Bismuth Nugget
-item.MetalNugget.Bismuth Bronze.name=Bismuth Bronze Nugget
-item.MetalNugget.Black Bronze.name=Black Bronze Nugget
-item.MetalNugget.Black Steel.name=Black Steel Nugget
-item.MetalNugget.Blue Steel.name=Blue Steel Nugget
-item.MetalNugget.Brass.name=Brass Nugget
-item.MetalNugget.Bronze.name=Bronze Nugget
 item.MetalNugget.Copper.name=Copper Nugget
 item.MetalNugget.Gold.name=Gold Nugget
 item.MetalNugget.Wrought Iron.name=Wrought Iron Nugget
@@ -46,23 +40,30 @@ item.MetalNugget.Lead.name=Lead Nugget
 item.MetalNugget.Nickel.name=Nickel Nugget
 item.MetalNugget.Pig Iron.name=Pig Iron Nugget
 item.MetalNugget.Platinum.name=Platinum Nugget
-item.MetalNugget.Red Steel.name=Red Steel Nugget
-item.MetalNugget.Rose Gold.name=Rose Gold Nugget
 item.MetalNugget.Silver.name=Silver Nugget
 item.MetalNugget.Steel.name=Steel Nugget
-item.MetalNugget.Sterling Silver.name=Sterling Silver Nugget
 item.MetalNugget.Tin.name=Tin Nugget
 item.MetalNugget.Zinc.name=Zinc Nugget
+
+item.AlloyNugget.Bismuth Bronze.name=Bismuth Bronze Nugget
+item.AlloyNugget.Black Bronze.name=Black Bronze Nugget
+item.AlloyNugget.Black Steel.name=Black Steel Nugget
+item.AlloyNugget.Blue Steel.name=Blue Steel Nugget
+item.AlloyNugget.Brass.name=Brass Nugget
+item.AlloyNugget.Bronze.name=Bronze Nugget
+item.AlloyNugget.High Carbon Black Steel.name=High Carbon Black Steel Nugget
+item.AlloyNugget.High Carbon Blue Steel.name=High Carbon Blue Steel Nugget
+item.AlloyNugget.High Carbon Red Steel.name=High Carbon Red Steel Nugget
+item.AlloyNugget.Red Steel.name=Red Steel Nugget
+item.AlloyNugget.Rose Gold.name=Rose Gold Nugget
+item.AlloyNugget.Sterling Silver.name=Sterling Silver Nugget
+item.AlloyNugget.Weak Steel.name=Weak Steel Nugget
+item.AlloyNugget.Weak Blue Steel.name=Weak Blue Steel Nugget
+item.AlloyNugget.Weak Red Steel.name=Weak Red Steel Nugget
 
 #== Dust ==
 
 item.MetalDust.Bismuth.name=Bismuth Dust
-item.MetalDust.Bismuth Bronze.name=Bismuth Bronze Dust
-item.MetalDust.Black Bronze.name=Black Bronze Dust
-item.MetalDust.Black Steel.name=Black Steel Dust
-item.MetalDust.Blue Steel.name=Blue Steel Dust
-item.MetalDust.Brass.name=Brass Dust
-item.MetalDust.Bronze.name=Bronze Dust
 item.MetalDust.Copper.name=Copper Dust
 item.MetalDust.Gold.name=Gold Dust
 item.MetalDust.Wrought Iron.name=Wrought Iron Dust
@@ -70,16 +71,31 @@ item.MetalDust.Lead.name=Lead Dust
 item.MetalDust.Nickel.name=Nickel Dust
 item.MetalDust.Pig Iron.name=Pig Iron Dust
 item.MetalDust.Platinum.name=Platinum Dust
-item.MetalDust.Red Steel.name=Red Steel Dust
-item.MetalDust.Rose Gold.name=Rose Gold Dust
 item.MetalDust.Silver.name=Silver Dust
 item.MetalDust.Steel.name=Steel Dust
-item.MetalDust.Sterling Silver.name=Sterling Silver Dust
 item.MetalDust.Tin.name=Tin Dust
 item.MetalDust.Zinc.name=Zinc Dust
 
-#== Creative Tabs ==
+item.AlloyDust.Bismuth Bronze.name=Bismuth Bronze Dust
+item.AlloyDust.Black Bronze.name=Black Bronze Dust
+item.AlloyDust.Black Steel.name=Black Steel Dust
+item.AlloyDust.Blue Steel.name=Blue Steel Dust
+item.AlloyDust.Brass.name=Brass Dust
+item.AlloyDust.Bronze.name=Bronze Dust
+item.AlloyDust.High Carbon Black Steel.name=High Carbon Black Steel Dust
+item.AlloyDust.High Carbon Blue Steel.name=High Carbon Blue Steel Dust
+item.AlloyDust.High Carbon Red Steel.name=High Carbon Red Steel Dust
+item.AlloyDust.Red Steel.name=Red Steel Dust
+item.AlloyDust.Rose Gold.name=Rose Gold Dust
+item.AlloyDust.Sterling Silver.name=Sterling Silver Dust
+item.AlloyDust.Weak Steel.name=Weak Steel Dust
+item.AlloyDust.Weak Blue Steel.name=Weak Blue Steel Dust
+item.AlloyDust.Weak Red Steel.name=Weak Red Steel Dust
+
+#== Anvil Plans ==
+
 gui.plans.block=Block
 
 #== Creative Tabs ==
+
 itemGroup.technodetoolstfc=TechNodeToolsTFC

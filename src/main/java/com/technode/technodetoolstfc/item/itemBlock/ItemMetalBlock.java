@@ -49,18 +49,67 @@ public class ItemMetalBlock extends ItemTerraBlock implements ISmeltable
 
     @Override
     public short getMetalReturnAmount(ItemStack is) {
-
-        return metalAmount;
+        int dam = is.getItemDamage();
+        switch(dam)
+        {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+                return metalAmount;
+        }
+        return 0;
     }
 
     @Override
-    public boolean isSmeltable(ItemStack is)
+    public boolean isSmeltable(ItemStack is) {
+        switch (is.getItemDamage()) {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+                return smeltable;
+            default:
+                return false;
+        }
+    }
+
+    @Override
+    public ISmeltable.EnumTier getSmeltTier(ItemStack is)
     {
-        return smeltable;
-    }
-
-    @Override
-    public EnumTier getSmeltTier(ItemStack is) {
-        return EnumTier.TierI;
+        int dam = is.getItemDamage();
+        switch(dam)
+        {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+                return EnumTier.TierI;
+        }
+        return EnumTier.TierX;
     }
 }

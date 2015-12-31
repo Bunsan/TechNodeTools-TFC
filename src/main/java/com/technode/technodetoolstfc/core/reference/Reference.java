@@ -22,13 +22,20 @@ public class Reference {
     // Common references for meta names, etc.
 
     public static final String[] METALS_ALL = {
-            "Bismuth", "Bismuth Bronze", "Black Bronze", "Black Steel", "Blue Steel", "Brass", "Bronze", "Copper", "Gold",
-            "Wrought Iron", "Lead", "Nickel", "Pig Iron", "Platinum",
-            "Red Steel", "Rose Gold", "Silver", "Steel", "Sterling Silver", "Tin", "Zinc"
+            "Bismuth", "Copper", "Gold", "Wrought Iron", "Lead", "Nickel", "Pig Iron", "Platinum",
+            "Silver", "Steel", "Tin", "Zinc",  "Bismuth Bronze", "Black Bronze", "Black Steel", "Blue Steel",
+            "Brass", "Bronze", "Red Steel", "Rose Gold", "Sterling Silver", "High Carbon Black Steel",
+            "High Carbon Blue Steel", "High Carbon Red Steel", "Weak Steel", "Weak Blue Steel", "Weak Red Steel"
     };
     public static final String[] METALS = {
             "Bismuth", "Copper", "Gold", "Wrought Iron", "Lead", "Nickel", "Pig Iron", "Platinum",
             "Silver", "Steel", "Tin", "Zinc"
+    };
+
+    public static final String[] ALLOYS_ALL = {
+            "Bismuth Bronze", "Black Bronze", "Black Steel", "Blue Steel", "Brass", "Bronze",
+            "High Carbon Black Steel", "High Carbon Blue Steel", "High Carbon Red Steel",
+            "Red Steel", "Rose Gold", "Sterling Silver", "Weak Steel", "Weak Blue Steel", "Weak Red Steel"
     };
 
     public static final String[] ALLOYS = {
@@ -36,6 +43,19 @@ public class Reference {
             "Red Steel", "Rose Gold", "Sterling Silver"
     };
 
+    public static final String[] INTERMEDIATE_ALLOYS = {
+            "High Carbon Black Steel", "High Carbon Blue Steel", "High Carbon Red Steel", "Weak Steel",
+            "Weak Blue Steel", "Weak Red Steel"
+    };
 
+    public static final String[] MOD_METALS_ALLOYS = {
+            "*Osmium", "*Aluminum", "*Tungsten", "Cobalt", "Titanium", "Chromium", "Lithium", "Manganese", "Molybdenum",
+            "Iridium", "Cadmium", "Vanadium", "Antimony", "*Electrum", "*Cupronickel", "Aluminum Brass", "Alumite", "*Invar"
+
+    };
+
+    public static final String[] MOD_MINERALS = {
+            "Apatite", "Scapolite"
+    };
 }
 

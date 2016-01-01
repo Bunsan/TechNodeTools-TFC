@@ -23,7 +23,7 @@ public class ItemMetal extends ItemOreSmall implements ISmeltable
         setCreativeTab(CreativeTab.TECHNODE_TAB);
         this.setWeight(EnumWeight.MEDIUM);
         this.setSize(EnumSize.TINY);
-        metaNames = Reference.METALS;
+        metaNames = Reference.METALS_ALL;
         metalAmount = 10;
     }
 

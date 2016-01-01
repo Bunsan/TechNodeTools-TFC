@@ -1,6 +1,7 @@
 package com.technode.technodetoolstfc.item;
 
 import com.technode.technodetoolstfc.core.ModDetails;
+import com.technode.technodetoolstfc.core.reference.CreativeTab;
 import com.technode.technodetoolstfc.core.reference.Reference;
 
 import com.bioxx.tfc.Core.TFCTabs;
@@ -11,6 +12,7 @@ import com.bioxx.tfc.api.Metal;
 import com.bioxx.tfc.api.TFCOptions;
 
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
@@ -30,9 +32,9 @@ public class ItemOreMod extends ItemOre
         setHasSubtypes(true);
         metaNames = new String[]{
                 "Bauxite", "Rich Bauxite", "Poor Bauxite", "Native Osmium", "Rich Native Osmium", "Poor Native Osmium",
-                "Scheelite", "Rich Scheelite", "Poor Scheelite", "Wolfram", "Rich Wolfram", "Poor Wolfram"};
+                "Scheelite", "Rich Scheelite", "Poor Scheelite", "Wolframite", "Rich Wolframite", "Poor Wolframite"};
         setFolder("ore/");
-        setCreativeTab(TFCTabs.TFC_MATERIALS);
+        setCreativeTab(CreativeTab.TECHNODE_TAB);
     }
 
     @Override

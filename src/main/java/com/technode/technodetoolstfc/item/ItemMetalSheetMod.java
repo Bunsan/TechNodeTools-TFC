@@ -1,6 +1,7 @@
 package com.technode.technodetoolstfc.item;
 
 import com.technode.technodetoolstfc.core.ModBlocks;
+import com.technode.technodetoolstfc.core.ModDetails;
 import com.technode.technodetoolstfc.core.reference.CreativeTab;
 
 import com.bioxx.tfc.Core.Metal.MetalRegistry;
@@ -12,8 +13,10 @@ import com.bioxx.tfc.api.Enums.EnumWeight;
 import com.bioxx.tfc.api.Metal;
 
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
 
 public class ItemMetalSheetMod extends ItemMetalSheet
@@ -37,6 +40,29 @@ public class ItemMetalSheetMod extends ItemMetalSheet
         metal = m;
         metalAmount = (short) amt;
         return this;
+    }
+
+    @Override
+    public void registerIcons(IIconRegister registerer)
+    {
+        if(this.metaNames == null)
+        {
+            if(this.iconString != null)
+                this.itemIcon = registerer.registerIcon(ModDetails.ModID + ":" + this.textureFolder + this.getIconString());
+            else
+                this.itemIcon = registerer.registerIcon(ModDetails.ModID + ":" + this.textureFolder + this.getUnlocalizedName().replace("item.", ""));
+        }
+        else
+        {
+            metaIcons = new IIcon[metaNames.length];
+            for(int i = 0; i < metaNames.length; i++)
+            {
+                metaIcons[i] = registerer.registerIcon(ModDetails.ModID + ":" + this.textureFolder + metaNames[i]);
+            }
+
+            //This will prevent NullPointerException errors with other mods like NEI
+            this.itemIcon = metaIcons[0];
+        }
     }
 
     @Override

@@ -1,5 +1,6 @@
 package com.technode.technodetoolstfc.item;
 
+import com.technode.technodetoolstfc.core.ModDetails;
 import com.technode.technodetoolstfc.core.reference.CreativeTab;
 
 import com.bioxx.tfc.Items.ItemMeltedMetal;
@@ -19,6 +20,6 @@ public class ItemMeltedMetalMod extends ItemMeltedMetal
     @Override
     public void registerIcons(IIconRegister registerer)
     {
-        this.itemIcon = registerer.registerIcon(Reference.MOD_ID + ":" + textureFolder+this.getUnlocalizedName().replace("item.", ""));
+        this.itemIcon = registerer.registerIcon(ModDetails.ModID + ":" + textureFolder+this.getUnlocalizedName().replace("item.", ""));
     }
 }

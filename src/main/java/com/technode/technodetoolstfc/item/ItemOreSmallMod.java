@@ -1,5 +1,7 @@
 package com.technode.technodetoolstfc.item;
 
+import com.bioxx.tfc.api.Interfaces.ISmeltable;
+import com.bioxx.tfc.api.Metal;
 import com.technode.technodetoolstfc.core.ModDetails;
 
 import com.bioxx.tfc.Core.TFC_Core;
@@ -7,6 +9,7 @@ import com.bioxx.tfc.api.Enums.EnumSize;
 import com.bioxx.tfc.api.Enums.EnumWeight;
 import com.bioxx.tfc.api.TFCOptions;
 
+import com.technode.technodetoolstfc.core.reference.Reference;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
@@ -25,19 +28,22 @@ public class ItemOreSmallMod extends ItemOreMod
         super();
         this.setWeight(EnumWeight.HEAVY);
         this.setSize(EnumSize.TINY);
+        metaNames = new String[]{
+                "Bauxite", "Native Osmium", "Scheelite", "Wolframite"
+        };
     }
 
     @Override
     public void getSubItems(Item item, CreativeTabs tabs, List list) {
-        for (int i = 0; i < (metaNames.length / 3); i++)
+        for (int i = 0; i < (metaNames.length); i++)
             list.add(new ItemStack(this, 1, i));
     }
 
     @Override
     public void registerIcons(IIconRegister registerer)
     {
-        metaIcons = new IIcon[(metaNames.length / 3)];
-        for(int i = 0; i < (metaNames.length / 3); i++)
+        metaIcons = new IIcon[(metaNames.length)];
+        for(int i = 0; i < (metaNames.length); i++)
         {
             metaIcons[i] = registerer.registerIcon(ModDetails.ModID + ":" + textureFolder + metaNames[i] + " Small Ore");
         }
@@ -59,6 +65,21 @@ public class ItemOreSmallMod extends ItemOreMod
         }
     }
 
+
+    @Override
+    public Metal getMetalType(ItemStack is)
+    {
+        int dam = is.getItemDamage();
+        switch(dam)
+        {
+            case 0: return Reference.ALUMINUM;
+            case 1: return Reference.OSMIUM;
+            case 2: return Reference.TUNGSTEN;
+            case 3: return Reference.TUNGSTEN;
+        }
+        return null;
+    }
+
     @Override
     public short getMetalReturnAmount(ItemStack is)
     {
@@ -66,18 +87,39 @@ public class ItemOreSmallMod extends ItemOreMod
         switch(dam)
         {
             case 0: return Small;
-            case 1: return 15;
-            case 2: return 5;
+            case 1: return Small;
+            case 2: return Small;
             case 3: return Small;
-            case 4: return 15;
-            case 5: return 5;
-            case 6: return Small;
-            case 7: return 15;
-            case 8: return 5;
-            case 9: return Small;
-            case 10: return 15;
-            case 11: return 5;
         }
         return 0;
+    }
+
+    @Override
+    public boolean isSmeltable(ItemStack is)
+    {
+        switch(is.getItemDamage())
+        {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+                return true;
+            default:
+                return false;
+        }
+    }
+
+    @Override
+    public ISmeltable.EnumTier getSmeltTier(ItemStack is)
+    {
+        int dam = is.getItemDamage();
+        switch(dam)
+        {
+            case 0: return ISmeltable.EnumTier.TierIV;
+            case 1: return ISmeltable.EnumTier.TierIII;
+            case 2: return ISmeltable.EnumTier.TierIV;
+            case 3: return ISmeltable.EnumTier.TierIV;
+        }
+        return ISmeltable.EnumTier.TierX;
     }
 }

@@ -29,7 +29,11 @@ public class Reference {
 
     public static final String[] METALS_ALL = {
             "Bismuth", "Copper", "Gold", "Wrought Iron", "Lead", "Nickel", "Pig Iron", "Platinum",
-            "Silver", "Steel", "Tin", "Zinc",  "Bismuth Bronze", "Black Bronze", "Black Steel", "Blue Steel",
+            "Silver", "Steel", "Tin", "Zinc", "Aluminum", "Osmium", "Tungsten"
+    };
+
+    public static final String[] ALLOYS_ALL_MOD = {
+            "Bismuth Bronze", "Black Bronze", "Black Steel", "Blue Steel",
             "Brass", "Bronze", "Red Steel", "Rose Gold", "Sterling Silver", "High Carbon Black Steel",
             "High Carbon Blue Steel", "High Carbon Red Steel", "Weak Steel", "Weak Blue Steel", "Weak Red Steel"
     };
@@ -74,7 +78,7 @@ public class Reference {
             ModItems.aluminumIngot,ModItems.osmiumIngot,ModItems.tungstenIngot};
 
     public static final String[] MOD_ORE_METAL = {
-            "Bauxite", "Native Osmium", "Scheelite", "Wolfram"
+            "Bauxite", "Native Osmium", "Scheelite", "Wolframite"
     };
 
     public static Metal ALUMINUM;

@@ -1,5 +1,6 @@
 package com.technode.technodetoolstfc.core.reference;
 
+import com.bioxx.tfc.api.TFCItems;
 import com.technode.technodetoolstfc.core.ModItems;
 
 import com.bioxx.tfc.api.HeatIndex;

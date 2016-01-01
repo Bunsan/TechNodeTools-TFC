@@ -1,6 +1,7 @@
 package com.technode.technodetoolstfc.core.handler;
 
 import com.technode.technodetoolstfc.core.ModDetails;
+
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;

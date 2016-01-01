@@ -43,6 +43,9 @@ public class ItemMetalBlock extends ItemTerraBlock implements ISmeltable
             case 9: return Global.STEEL;
             case 10: return Global.TIN;
             case 11: return Global.ZINC;
+            case 12: return Reference.ALUMINUM;
+            case 13: return Reference.OSMIUM;
+            case 14: return Reference.TUNGSTEN;
         }
         return null;
     }
@@ -64,6 +67,9 @@ public class ItemMetalBlock extends ItemTerraBlock implements ISmeltable
             case 9:
             case 10:
             case 11:
+            case 12:
+            case 13:
+            case 14:
                 return metalAmount;
         }
         return 0;
@@ -84,6 +90,9 @@ public class ItemMetalBlock extends ItemTerraBlock implements ISmeltable
             case 9:
             case 10:
             case 11:
+            case 12:
+            case 13:
+            case 14:
                 return smeltable;
             default:
                 return false;
@@ -108,6 +117,9 @@ public class ItemMetalBlock extends ItemTerraBlock implements ISmeltable
             case 9:
             case 10:
             case 11:
+            case 12:
+            case 13:
+            case 14:
                 return EnumTier.TierI;
         }
         return EnumTier.TierX;

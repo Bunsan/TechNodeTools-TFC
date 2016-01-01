@@ -1,10 +1,13 @@
 package com.technode.technodetoolstfc.core.handler.network;
 
-import com.bioxx.tfc.Handlers.Network.AbstractPacket;
 import com.technode.technodetoolstfc.core.Recipes;
+
+import com.bioxx.tfc.Handlers.Network.AbstractPacket;
+
+import net.minecraft.entity.player.EntityPlayer;
+
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
-import net.minecraft.entity.player.EntityPlayer;
 
 public class InitClientWorldPacket extends AbstractPacket
 {

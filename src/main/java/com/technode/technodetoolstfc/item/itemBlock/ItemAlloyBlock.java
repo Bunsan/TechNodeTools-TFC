@@ -1,16 +1,15 @@
 package com.technode.technodetoolstfc.item.itemBlock;
 
+import com.technode.technodetoolstfc.core.reference.CreativeTab;
+import com.technode.technodetoolstfc.core.reference.Reference;
+
 import com.bioxx.tfc.Items.ItemBlocks.ItemTerraBlock;
 import com.bioxx.tfc.api.Constant.Global;
 import com.bioxx.tfc.api.Interfaces.ISmeltable;
 import com.bioxx.tfc.api.Metal;
-import com.bioxx.tfc.api.TFC_ItemHeat;
-import com.technode.technodetoolstfc.core.reference.CreativeTab;
-import com.technode.technodetoolstfc.core.reference.Reference;
+
 import net.minecraft.block.Block;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
 
 public class ItemAlloyBlock extends ItemTerraBlock implements ISmeltable
 {

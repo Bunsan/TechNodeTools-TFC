@@ -1,8 +1,10 @@
 package com.technode.technodetoolstfc.item;
 
+import com.technode.technodetoolstfc.core.ModDetails;
+
 import com.bioxx.tfc.api.Enums.EnumSize;
 import com.bioxx.tfc.api.Enums.EnumWeight;
-import com.technode.technodetoolstfc.core.ModDetails;
+
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;

@@ -1,13 +1,13 @@
 package com.technode.technodetoolstfc.block;
 
-import com.bioxx.tfc.Blocks.BlockTerra;
-import com.bioxx.tfc.Blocks.Terrain.BlockSmooth;
-import com.bioxx.tfc.Items.Tools.ItemHammer;
-import com.bioxx.tfc.api.Tools.IToolChisel;
-import com.technode.technodetoolstfc.core.ModBlocks;
 import com.technode.technodetoolstfc.core.ModDetails;
 import com.technode.technodetoolstfc.core.reference.CreativeTab;
 import com.technode.technodetoolstfc.core.reference.Reference;
+
+import com.bioxx.tfc.Blocks.BlockTerra;
+import com.bioxx.tfc.Items.Tools.ItemHammer;
+import com.bioxx.tfc.api.Tools.IToolChisel;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -15,7 +15,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;

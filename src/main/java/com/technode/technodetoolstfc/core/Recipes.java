@@ -7,6 +7,7 @@ import com.bioxx.tfc.api.Crafting.AnvilReq;
 import com.bioxx.tfc.api.Crafting.PlanRecipe;
 import com.bioxx.tfc.api.Enums.RuleEnum;
 import com.bioxx.tfc.api.TFCItems;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -14,7 +15,6 @@ import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
 
 import java.util.Map;
-import java.util.Random;
 
 public class Recipes
 {

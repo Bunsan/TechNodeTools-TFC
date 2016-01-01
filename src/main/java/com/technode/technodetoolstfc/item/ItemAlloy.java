@@ -1,13 +1,15 @@
 package com.technode.technodetoolstfc.item;
 
+import com.technode.technodetoolstfc.core.reference.CreativeTab;
+import com.technode.technodetoolstfc.core.reference.Reference;
+
 import com.bioxx.tfc.Items.ItemOreSmall;
 import com.bioxx.tfc.api.Constant.Global;
 import com.bioxx.tfc.api.Enums.EnumSize;
 import com.bioxx.tfc.api.Enums.EnumWeight;
 import com.bioxx.tfc.api.Interfaces.ISmeltable;
 import com.bioxx.tfc.api.Metal;
-import com.technode.technodetoolstfc.core.reference.CreativeTab;
-import com.technode.technodetoolstfc.core.reference.Reference;
+
 import net.minecraft.item.ItemStack;
 
 public class ItemAlloy extends ItemOreSmall implements ISmeltable

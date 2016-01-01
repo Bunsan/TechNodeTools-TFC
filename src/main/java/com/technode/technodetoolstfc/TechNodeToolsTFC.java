@@ -7,6 +7,7 @@ import com.technode.technodetoolstfc.core.proxy.IProxy;
 import com.technode.technodetoolstfc.core.ModDetails;
 import com.technode.technodetoolstfc.core.handler.ConfigurationHandler;
 import com.technode.technodetoolstfc.core.reference.BlockReferences;
+import com.technode.technodetoolstfc.core.reference.ItemHeatReferences;
 import com.technode.technodetoolstfc.core.reference.ItemReferences;
 import com.technode.technodetoolstfc.core.utility.LogHelper;
 import com.technode.technodetoolstfc.core.handler.CraftingHandler;
@@ -58,6 +59,7 @@ public class TechNodeToolsTFC
         // Register Recipes
         Recipes.registerItemRecipes();
         Recipes.registerTileRecipes();
+        ItemHeatReferences.ItemHeatReferences();
 
         // Register the Chunk Load/Save Handler
         MinecraftForge.EVENT_BUS.register(new ChunkEventHandler());

@@ -41,4 +41,7 @@ public class ItemMetalDust extends ItemMetal
             metaIcons[i] = registerer.registerIcon(ModDetails.ModID + ":" + textureFolder + metaNames[i] + " Dust");
         }
     }
+
+    @Override
+    public short getMetalReturnAmount(ItemStack is) { return metalAmount; }
 }

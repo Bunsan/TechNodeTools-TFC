@@ -96,9 +96,9 @@ public class ItemReferences extends ModItems
         Reference.OSMIUM = new Metal("Osmium", ModItems.osmiumUnshaped, ModItems.osmiumIngot);
         Reference.TUNGSTEN = new Metal("Tungsten", ModItems.tungstenUnshaped, ModItems.tungstenIngot);
 
-        Reference.ELECTRUM = new Metal("Aluminum", ModItems.electrumUnshaped, ModItems.electrumIngot);
-        Reference.CUPRONICKEL = new Metal("Osmium", ModItems.cupronickelUnshaped, ModItems.cupronickelIngot);
-        Reference.INVAR = new Metal("Tungsten", ModItems.invarUnshaped, ModItems.invarIngot);
+        Reference.ELECTRUM = new Metal("Electrum", ModItems.electrumUnshaped, ModItems.electrumIngot);
+        Reference.CUPRONICKEL = new Metal("Cupronickel", ModItems.cupronickelUnshaped, ModItems.cupronickelIngot);
+        Reference.INVAR = new Metal("Invar", ModItems.invarUnshaped, ModItems.invarIngot);
 
         MetalRegistry.instance.addMetal(Reference.ALUMINUM, Alloy.EnumTier.TierIV);
         MetalRegistry.instance.addMetal(Reference.OSMIUM, Alloy.EnumTier.TierIV);

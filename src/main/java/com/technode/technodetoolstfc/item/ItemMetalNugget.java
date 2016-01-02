@@ -41,4 +41,7 @@ public class ItemMetalNugget extends ItemMetal
             metaIcons[i] = registerer.registerIcon(ModDetails.ModID + ":" + textureFolder + metaNames[i] + " Nugget");
         }
     }
+
+    @Override
+    public short getMetalReturnAmount(ItemStack is) { return metalAmount; }
 }

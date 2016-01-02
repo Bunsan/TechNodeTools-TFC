@@ -5,6 +5,8 @@
 #To create the § symbol which is used for assigning a color to the following text press Alt + 21 on Windows. For other OSes, view the above link.
 #This file needs to be UTF-8 encoded to work with MC 1.7+
 
+#== Ores ==
+
 #== Blocks ==
 
 tile.MetalBlock.Bismuth.name=Bismuth Block
@@ -29,6 +31,10 @@ tile.AlloyBlock.Bronze.name=Bronze Block
 tile.AlloyBlock.Red Steel.name=Red Steel Block
 tile.AlloyBlock.Rose Gold.name=Rose Gold Block
 tile.AlloyBlock.Sterling Silver.name=Sterling Silver Block
+tile.AlloyBlock.Electrum.name=Electrum Block
+tile.AlloyBlock.Cupronickel.name=Cupronickel Block
+tile.AlloyBlock.Invar.name=Invar Block
+
 
 #== Nugget ==
 
@@ -60,6 +66,9 @@ item.AlloyNugget.Sterling Silver.name=Sterling Silver Nugget
 item.AlloyNugget.Weak Steel.name=Weak Steel Nugget
 item.AlloyNugget.Weak Blue Steel.name=Weak Blue Steel Nugget
 item.AlloyNugget.Weak Red Steel.name=Weak Red Steel Nugget
+item.AlloyNugget.Electrum.name=Electrum Nugget
+item.AlloyNugget.Cupronickel.name=Cupronickel Nugget
+item.AlloyNugget.Invar.name=Invar Nugget
 
 #== Dust ==
 
@@ -91,6 +100,15 @@ item.AlloyDust.Sterling Silver.name=Sterling Silver Dust
 item.AlloyDust.Weak Steel.name=Weak Steel Dust
 item.AlloyDust.Weak Blue Steel.name=Weak Blue Steel Dust
 item.AlloyDust.Weak Red Steel.name=Weak Red Steel Dust
+item.AlloyDust.Electrum.name=Electrum Dust
+item.AlloyDust.Cupronickel.name=Cupronickel Dust
+item.AlloyDust.Invar.name=Invar Dust
+
+#== Crucible ==
+
+gui.metal.Electrum=Electrum
+gui.metal.Cupronickel=Cupronickel
+gui.metal.Invar=Invar
 
 #== Anvil Plans ==
 

@@ -62,4 +62,13 @@ public class ItemAlloy extends ItemOreSmall implements ISmeltable
         }
         return null;
     }
+
+    @Override
+    public short getMetalReturnAmount(ItemStack is) { return metalAmount; }
+
+    @Override
+    public boolean isSmeltable(ItemStack is) { return true; }
+
+    @Override
+    public EnumTier getSmeltTier(ItemStack is) { return EnumTier.TierI; }
 }

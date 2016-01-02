@@ -1,6 +1,7 @@
 package com.technode.technodetoolstfc.item;
 
 import com.technode.technodetoolstfc.core.reference.CreativeTab;
+import com.technode.technodetoolstfc.core.reference.ItemReferences;
 import com.technode.technodetoolstfc.core.reference.Reference;
 
 import com.bioxx.tfc.Items.ItemOreSmall;
@@ -55,99 +56,10 @@ public class ItemAlloy extends ItemOreSmall implements ISmeltable
             case 12: return Global.WEAKSTEEL;
             case 13: return Global.WEAKBLUESTEEL;
             case 14: return Global.WEAKREDSTEEL;
+            case 15: return Reference.ELECTRUM;
+            case 16: return Reference.CUPRONICKEL;
+            case 17: return Reference.INVAR;
         }
         return null;
     }
-
-    @Override
-    public short getMetalReturnAmount(ItemStack is)
-    {
-        int dam = is.getItemDamage();
-        switch(dam)
-        {
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-            case 13:
-            case 14:
-                return metalAmount;
-        }
-        return 0;
-    }
-
-    @Override
-    public boolean isSmeltable(ItemStack is)
-    {
-        switch(is.getItemDamage())
-        {
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-            case 13:
-            case 14:
-            case 15:
-            case 16:
-            case 17:
-            case 18:
-            case 19:
-            case 20:
-                return true;
-            default:
-                return false;
-        }
-    }
-
-    @Override
-    public EnumTier getSmeltTier(ItemStack is)
-    {
-        int dam = is.getItemDamage();
-        switch(dam)
-        {
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-            case 13:
-            case 14:
-            case 15:
-            case 16:
-            case 17:
-            case 18:
-            case 19:
-            case 20:
-                return EnumTier.TierI;
-        }
-        return EnumTier.TierX;
-    }
-
-
 }

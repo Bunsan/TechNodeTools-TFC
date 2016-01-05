@@ -18,8 +18,8 @@ public class ItemMetalBlock extends ItemTerraBlock implements ISmeltable
     public ItemMetalBlock(Block b)
     {
         super(b);
-        metaNames = new String[12];
-        System.arraycopy(Reference.METALS, 0, metaNames, 0, 12);
+        metaNames = new String[15];
+        System.arraycopy(Reference.METALS, 0, metaNames, 0, 15);
         setFolder("metal/");
         metalAmount = 800;
 

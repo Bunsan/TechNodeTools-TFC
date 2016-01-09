@@ -53,12 +53,12 @@ public class ItemReferences extends ModItems
         osmiumUnshaped = new ItemMeltedMetalMod().setUnlocalizedName("Osmium Unshaped");
         tungstenUnshaped = new ItemMeltedMetalMod().setUnlocalizedName("Tungsten Unshaped");
 
-        aluminumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(1).setUnlocalizedName("Aluminum Sheet")).setMetal("Aluminum", 200);
-        osmiumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(0).setUnlocalizedName("Osmium Sheet")).setMetal("Osmium", 200);
+        aluminumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(0).setUnlocalizedName("Aluminum Sheet")).setMetal("Aluminum", 200);
+        osmiumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(1).setUnlocalizedName("Osmium Sheet")).setMetal("Osmium", 200);
         tungstenSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(2).setUnlocalizedName("Tungsten Sheet")).setMetal("Tungsten", 200);
 
-        aluminumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(1).setUnlocalizedName("Aluminum Double Sheet")).setMetal("Aluminum", 400);
-        osmiumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(0).setUnlocalizedName("Osmium Double Sheet")).setMetal("Osmium", 400);
+        aluminumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(0).setUnlocalizedName("Aluminum Double Sheet")).setMetal("Aluminum", 400);
+        osmiumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(1).setUnlocalizedName("Osmium Double Sheet")).setMetal("Osmium", 400);
         tungstenSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(2).setUnlocalizedName("Tungsten Double Sheet")).setMetal("Tungsten", 400);
 
         //ALLOYS
@@ -75,13 +75,13 @@ public class ItemReferences extends ModItems
         cupronickelUnshaped = new ItemMeltedMetalMod().setUnlocalizedName("Cupronickel Unshaped");
         invarUnshaped = new ItemMeltedMetalMod().setUnlocalizedName("Invar Unshaped");
 
-        electrumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(1).setUnlocalizedName("Electrum Sheet")).setMetal("Electrum", 200);
-        cupronickelSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(0).setUnlocalizedName("Cupronickel Sheet")).setMetal("Cupronickel", 200);
-        invarSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(2).setUnlocalizedName("Invar Sheet")).setMetal("Invar", 200);
+        electrumSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(0).setUnlocalizedName("Electrum Sheet")).setMetal("Electrum", 200);
+        cupronickelSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(1).setUnlocalizedName("Cupronickel Sheet")).setMetal("Cupronickel", 200);
+        invarSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(2).setUnlocalizedName("Invar Sheet")).setMetal("Invar", 200);
 
-        electrumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(1).setUnlocalizedName("Electrum Double Sheet")).setMetal("Electrum", 400);
-        cupronickelSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(0).setUnlocalizedName("Cupronickel Double Sheet")).setMetal("Cupronickel", 400);
-        invarSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(2).setUnlocalizedName("Invar Double Sheet")).setMetal("Invar", 400);
+        electrumSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(0).setUnlocalizedName("Electrum Double Sheet")).setMetal("Electrum", 400);
+        cupronickelSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(1).setUnlocalizedName("Cupronickel Double Sheet")).setMetal("Cupronickel", 400);
+        invarSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(2).setUnlocalizedName("Invar Double Sheet")).setMetal("Invar", 400);
 
         registerItems();
         registerMetals();

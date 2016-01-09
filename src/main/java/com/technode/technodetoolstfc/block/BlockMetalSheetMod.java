@@ -13,20 +13,15 @@ import net.minecraft.util.IIcon;
 
 public class BlockMetalSheetMod extends BlockMetalSheet
 {
-    public IIcon[] icons;
-    public String[] metalNames = Reference.MOD_METALS;
+    //public IIcon[] icons;
+    public String[]  metalNames = Reference.MOD_METALS;
 
     public BlockMetalSheetMod()
     {
         super();
+
         icons = new IIcon[metalNames.length];
         this.setBlockBounds(0, 0, 0, 1, 1, 1);
-    }
-
-    @Override
-    public int getRenderType()
-    {
-        return TFCBlocks.metalsheetRenderId;
     }
 
     @Override
@@ -35,8 +30,8 @@ public class BlockMetalSheetMod extends BlockMetalSheet
         for(int i = 0; i < icons.length; i++)
             icons[i] = registerer.registerIcon(ModDetails.ModID + ":" + "metal/"+metalNames[i]);
 
-        ModTextures.sheetOsmium = icons[0];
-        ModTextures.sheetAluminum = icons[1];
+        ModTextures.sheetAluminum = icons[0];
+        ModTextures.sheetOsmium = icons[1];
         ModTextures.sheetTungsten = icons[2];
     }
 }

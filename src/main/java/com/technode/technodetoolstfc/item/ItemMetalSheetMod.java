@@ -1,16 +1,16 @@
 package com.technode.technodetoolstfc.item;
 
+import com.bioxx.tfc.Core.Metal.MetalRegistry;
+import com.bioxx.tfc.TileEntities.TEMetalSheet;
+import com.bioxx.tfc.api.Metal;
 import com.technode.technodetoolstfc.core.ModBlocks;
 import com.technode.technodetoolstfc.core.ModDetails;
 import com.technode.technodetoolstfc.core.reference.CreativeTab;
 
-import com.bioxx.tfc.Core.Metal.MetalRegistry;
 import com.bioxx.tfc.Items.ItemMetalSheet;
 import com.bioxx.tfc.Items.ItemTerra;
-import com.bioxx.tfc.TileEntities.TEMetalSheet;
 import com.bioxx.tfc.api.Enums.EnumSize;
 import com.bioxx.tfc.api.Enums.EnumWeight;
-import com.bioxx.tfc.api.Metal;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -22,6 +22,7 @@ import net.minecraft.world.World;
 public class ItemMetalSheetMod extends ItemMetalSheet
 {
     private String metal;
+    public int metalID;
 
     public ItemMetalSheetMod (int mID)
     {
@@ -169,6 +170,7 @@ public class ItemMetalSheetMod extends ItemMetalSheet
         }
         return false;
     }
+
     @Override
     public Metal getMetalType(ItemStack is)
     {

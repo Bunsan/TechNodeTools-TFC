@@ -13,8 +13,7 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 
-public class CommonProxy implements IProxy
-{
+public class CommonProxy {
     public void registerFluidIcons() {}
 
     public void registerRenderInformation()

@@ -1,11 +1,10 @@
 package com.technode.technodetoolstfc;
 
-import com.technode.technodetoolstfc.core.ModBlocks;
 import com.technode.technodetoolstfc.core.Recipes;
 import com.technode.technodetoolstfc.core.handler.ChunkEventHandler;
 import com.technode.technodetoolstfc.core.handler.network.InitClientWorldPacket;
+import com.technode.technodetoolstfc.core.proxy.ClientProxy;
 import com.technode.technodetoolstfc.core.proxy.CommonProxy;
-import com.technode.technodetoolstfc.core.proxy.IProxy;
 import com.technode.technodetoolstfc.core.ModDetails;
 import com.technode.technodetoolstfc.core.handler.ConfigurationHandler;
 import com.technode.technodetoolstfc.core.reference.BlockReferences;
@@ -36,6 +35,7 @@ public class TechNodeToolsTFC
 
     @SidedProxy(clientSide = ModDetails.CLIENT_PROXY_CLASS, serverSide = ModDetails.SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
+    public static ClientProxy clientProxy;
 
     @EventHandler
     public void preInitialize(FMLPreInitializationEvent e)
@@ -67,7 +67,7 @@ public class TechNodeToolsTFC
         ItemHeatReferences.ItemHeatReferences();
 
         // Register all the render stuff for the client
-        proxy.registerRenderInformation();
+     //   proxy.registerRenderInformation();
 
         // Register the Chunk Load/Save Handler
         MinecraftForge.EVENT_BUS.register(new ChunkEventHandler());

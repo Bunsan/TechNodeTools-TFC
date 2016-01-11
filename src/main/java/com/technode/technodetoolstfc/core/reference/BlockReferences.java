@@ -19,8 +19,6 @@ public class BlockReferences extends ModBlocks
         metalSheetMod = new BlockMetalSheetMod().setBlockName("MetalSheet").setHardness(1);
         alloySheetMod = new BlockAlloySheetMod().setBlockName("MetalSheet").setHardness(1);
         ingotPileMod = new BlockIngotPileMod().setBlockName("ingotpile").setHardness(3);
-        metalTrapDoorMod = new BlockAlloyTrapDoorMod().setBlockName("MetalTrapDoor");
-        alloyTrapDoorMod = new BlockAlloyTrapDoorMod().setBlockName("MetalTrapDoor");
 
 
         alloyBlock.setHarvestLevel("pickaxe", 1);

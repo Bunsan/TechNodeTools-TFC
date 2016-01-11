@@ -1,6 +1,6 @@
 package com.technode.technodetoolstfc.core.reference;
 
-import com.technode.technodetoolstfc.BlockIngotPileMod;
+import com.technode.technodetoolstfc.block.BlockIngotPileMod;
 import com.technode.technodetoolstfc.block.*;
 import com.technode.technodetoolstfc.core.ModBlocks;
 import com.technode.technodetoolstfc.core.utility.LogHelper;
@@ -17,6 +17,7 @@ public class BlockReferences extends ModBlocks
         oreMod = new BlockMetalOre(Material.iron) {}.setHardness(10F).setResistance(10F).setBlockName("Ore");
         oreMineralMod = new BlockMineralOre(Material.iron) {}.setHardness(10F).setResistance(10F).setBlockName("Ore");
         metalSheetMod = new BlockMetalSheetMod().setBlockName("MetalSheet").setHardness(1);
+        alloySheetMod = new BlockAlloySheetMod().setBlockName("MetalSheet").setHardness(1);
         ingotPileMod = new BlockIngotPileMod().setBlockName("ingotpile").setHardness(3);
 
 

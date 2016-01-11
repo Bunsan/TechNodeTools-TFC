@@ -7,7 +7,6 @@ import com.technode.technodetoolstfc.core.reference.CreativeTab;
 import com.technode.technodetoolstfc.tileentity.TEModIngotPile;
 
 import com.bioxx.tfc.Core.Metal.MetalRegistry;
-import com.bioxx.tfc.api.TFCBlocks;
 import com.bioxx.tfc.Items.ItemIngot;
 import com.bioxx.tfc.api.Enums.EnumSize;
 

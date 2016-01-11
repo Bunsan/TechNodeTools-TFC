@@ -18,7 +18,8 @@ public class BlockMineralOre extends BlockMetalOre
     public BlockMineralOre(Material mat)
     {
         super(mat);
-        blockNames = Reference.MOD_ORE_MINERAL;
+        blockNames = new String[Reference.MOD_ORE_METAL.length];
+        System.arraycopy(Reference.MOD_ORE_METAL, 0, blockNames, 0, Reference.MOD_ORE_METAL.length);
     }
 
     @Override

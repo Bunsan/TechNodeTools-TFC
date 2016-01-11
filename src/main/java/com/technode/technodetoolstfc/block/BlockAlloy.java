@@ -31,7 +31,9 @@ public class BlockAlloy extends BlockTerra
     {
         super(Material.iron);
         this.setCreativeTab(CreativeTab.TECHNODE_TAB);
-        names = Reference.ALLOYS;
+        names = new String[Reference.ALLOYS_USABLE.length];
+        System.arraycopy(Reference.ALLOYS_USABLE, 0, names, 0, Reference.ALLOYS_USABLE.length);
+
         icons = new IIcon[names.length];
     }
 
@@ -65,7 +67,7 @@ public class BlockAlloy extends BlockTerra
     public void registerBlockIcons(IIconRegister registerer)
     {
         for(int i = 0; i < names.length; i++)
-            icons[i] = registerer.registerIcon(ModDetails.ModID + ":" + "metal/"+names[i]+" Block");
+            icons[i] = registerer.registerIcon(ModDetails.ModID + ":" + "metal/"+names[i]);
     }
 
     /**

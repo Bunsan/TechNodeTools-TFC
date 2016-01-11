@@ -60,82 +60,11 @@ public class ItemMetal extends ItemOreSmall implements ISmeltable
     }
 
     @Override
-    public short getMetalReturnAmount(ItemStack is)
-    {
-        int dam = is.getItemDamage();
-        switch(dam)
-        {
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-            case 13:
-            case 14:
-                return metalAmount;
-        }
-        return 0;
-    }
+    public short getMetalReturnAmount(ItemStack is) { return metalAmount; }
 
     @Override
-    public boolean isSmeltable(ItemStack is)
-    {
-        switch(is.getItemDamage())
-        {
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-            case 13:
-            case 14:
-                return true;
-            default:
-                return false;
-        }
-    }
+    public boolean isSmeltable(ItemStack is) { return true; }
 
     @Override
-    public EnumTier getSmeltTier(ItemStack is)
-    {
-        int dam = is.getItemDamage();
-        switch(dam)
-        {
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-            case 13:
-            case 14:
-                return EnumTier.TierI;
-        }
-        return EnumTier.TierX;
-    }
-
-
+    public EnumTier getSmeltTier(ItemStack is) { return EnumTier.TierI; }
 }

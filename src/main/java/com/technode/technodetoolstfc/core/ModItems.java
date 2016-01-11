@@ -29,6 +29,22 @@ public class ModItems
     public static Item tungstenSheet;
     public static Item tungstenSheet2x;
 
+    public static Item electrumIngot;
+    public static Item electrumIngot2x;
+    public static Item electrumUnshaped;
+    public static Item electrumSheet;
+    public static Item electrumSheet2x;
+    public static Item cupronickelIngot;
+    public static Item cupronickelIngot2x;
+    public static Item cupronickelUnshaped;
+    public static Item cupronickelSheet;
+    public static Item cupronickelSheet2x;
+    public static Item invarIngot;
+    public static Item invarIngot2x;
+    public static Item invarUnshaped;
+    public static Item invarSheet;
+    public static Item invarSheet2x;
+
     public static void registerItems()
     {
         GameRegistry.registerItem(oreChunk, oreChunk.getUnlocalizedName());
@@ -54,5 +70,21 @@ public class ModItems
         GameRegistry.registerItem(tungstenUnshaped, tungstenUnshaped.getUnlocalizedName());
         GameRegistry.registerItem(tungstenSheet, tungstenSheet.getUnlocalizedName());
         GameRegistry.registerItem(tungstenSheet2x, tungstenSheet2x.getUnlocalizedName());
+
+        GameRegistry.registerItem(electrumIngot, electrumIngot.getUnlocalizedName());
+        GameRegistry.registerItem(electrumIngot2x, electrumIngot2x.getUnlocalizedName());
+        GameRegistry.registerItem(electrumUnshaped, electrumUnshaped.getUnlocalizedName());
+        GameRegistry.registerItem(electrumSheet, electrumSheet.getUnlocalizedName());
+        GameRegistry.registerItem(electrumSheet2x, electrumSheet2x.getUnlocalizedName());
+        GameRegistry.registerItem(cupronickelIngot, cupronickelIngot.getUnlocalizedName());
+        GameRegistry.registerItem(cupronickelIngot2x, cupronickelIngot2x.getUnlocalizedName());
+        GameRegistry.registerItem(cupronickelUnshaped, cupronickelUnshaped.getUnlocalizedName());
+        GameRegistry.registerItem(cupronickelSheet, cupronickelSheet.getUnlocalizedName());
+        GameRegistry.registerItem(cupronickelSheet2x, cupronickelSheet2x.getUnlocalizedName());
+        GameRegistry.registerItem(invarIngot, invarIngot.getUnlocalizedName());
+        GameRegistry.registerItem(invarIngot2x, invarIngot2x.getUnlocalizedName());
+        GameRegistry.registerItem(invarUnshaped, invarUnshaped.getUnlocalizedName());
+        GameRegistry.registerItem(invarSheet, invarSheet.getUnlocalizedName());
+        GameRegistry.registerItem(invarSheet2x, invarSheet2x.getUnlocalizedName());
     }
 }

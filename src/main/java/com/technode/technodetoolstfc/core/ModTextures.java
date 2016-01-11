@@ -7,4 +7,7 @@ public class ModTextures
     public static IIcon sheetOsmium;
     public static IIcon sheetAluminum;
     public static IIcon sheetTungsten;
+    public static IIcon sheetElectrum;
+    public static IIcon sheetCupronickel;
+    public static IIcon sheetInvar;
 }

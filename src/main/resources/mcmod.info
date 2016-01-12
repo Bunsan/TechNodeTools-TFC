@@ -1,21 +1,19 @@
+[
 {
-	"modListVersion": 0.1.0,
-	"modList": [{
-	    "modid": "technodetoolstfc",
-        "name": "TechNodeToolsTFC",
-        "description": "Adding Extra Stuff to TFC for better compatibility.",
-    "version": "${mod_version}",
-    "mcversion": "${minecraft_version}",
-        "url" : "https://github.com/Bunsan/TechNodeTools-TFC",
-        "updateUrl": "",
-        "authorList": [ "Bunsan", "AnodeCathode" ],
-        "credits": "",
-        "logoFile": "",
-        "screenshots": [  ],
-        "parent": "",
-        "requiredMods": ["terrafirmacraft"],
-        "dependencies": ["terrafirmacraft"],
-        "dependants": [],
-        "useDependencyInformation": "true"
-    }]
-}
+"modid": "technodetoolstfc",
+"name": "TechNodeToolsTFC",
+"description": "Adding Extra Stuff to TFC for better compatibility.",
+"version": "${version}",
+"mcversion": "${mcversion}",
+"url" : "https://github.com/Bunsan/TechNodeTools-TFC",
+"updateUrl": "",
+"authorList": [ "Bunsan", "AnodeCathode" ],
+"credits": "",
+"logoFile": "",
+"screenshots": [  ],
+"parent": "",
+"requiredMods": ["terrafirmacraft"],
+"dependencies": ["terrafirmacraft"],
+"dependants": [],
+"useDependencyInformation": "true"
+}]

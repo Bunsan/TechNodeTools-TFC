@@ -1,30 +1,17 @@
 package com.technode.technodetoolstfc.core.reference;
 
-import com.sun.tools.internal.xjc.reader.RawTypeSet;
 import com.technode.technodetoolstfc.core.ModItems;
 import com.technode.technodetoolstfc.core.utility.LogHelper;
 import com.technode.technodetoolstfc.item.*;
 
-import com.bioxx.tfc.Core.Recipes;
-import com.bioxx.tfc.Core.TFCTabs;
 import com.bioxx.tfc.Core.Metal.Alloy;
 import com.bioxx.tfc.Core.Metal.AlloyManager;
 import com.bioxx.tfc.Core.Metal.MetalRegistry;
-import com.bioxx.tfc.Food.*;
-import com.bioxx.tfc.Handlers.TFCFuelHandler;
-import com.bioxx.tfc.Items.*;
-import com.bioxx.tfc.Items.ItemBlocks.ItemWoodDoor;
-import com.bioxx.tfc.Items.Pottery.ItemPotteryBase;
-import com.bioxx.tfc.Items.Pottery.ItemPotteryJug;
-import com.bioxx.tfc.Items.Pottery.ItemPotteryMold;
-import com.bioxx.tfc.Items.Pottery.ItemPotterySmallVessel;
-import com.bioxx.tfc.Items.Tools.*;
+
 import com.bioxx.tfc.api.*;
 import com.bioxx.tfc.api.Constant.Global;
-import com.bioxx.tfc.api.Enums.EnumDamageType;
-import com.bioxx.tfc.api.Enums.EnumFoodGroup;
+
 import com.bioxx.tfc.api.Enums.EnumSize;
-import com.bioxx.tfc.api.Enums.EnumWeight;
 
 
 public class ItemReferences extends ModItems

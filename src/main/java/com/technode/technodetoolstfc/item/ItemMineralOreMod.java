@@ -15,7 +15,7 @@ public class ItemMineralOreMod extends ItemOreMod
         setMaxDamage(0);
         setHasSubtypes(true);
         metaNames = Reference.MOD_MINERALS;
-        setFolder("ore/");
+        setFolder("ores/");
         setCreativeTab(CreativeTab.TECHNODE_TAB);
     }
     @Override

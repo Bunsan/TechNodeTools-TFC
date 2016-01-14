@@ -20,7 +20,7 @@ public class ModBlocks
     {
         GameRegistry.registerBlock(metalBlock, ItemMetalBlock1.class, "metalBlock");
         GameRegistry.registerBlock(alloyBlock, ItemAlloyBlock1.class, "alloyBlock");
-        GameRegistry.registerBlock(oreMod, "ore");
+        GameRegistry.registerBlock(oreMod, "MetalOre");
         GameRegistry.registerBlock(oreMineralMod, "mineral");
         GameRegistry.registerBlock(metalSheetMod, "metalSheet");
         GameRegistry.registerBlock(alloySheetMod, "alloySheet");

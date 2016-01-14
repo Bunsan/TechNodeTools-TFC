@@ -93,5 +93,6 @@ public class Reference {
     public static Metal ELECTRUM;
     public static Metal CUPRONICKEL;
     public static Metal INVAR;
+    public static Metal NULL;
 }
 

@@ -1,5 +1,6 @@
 package com.technode.technodetoolstfc.block;
 
+import com.bioxx.tfc.api.TFCItems;
 import com.technode.technodetoolstfc.core.ModDetails;
 import com.technode.technodetoolstfc.core.ModItems;
 import com.technode.technodetoolstfc.core.reference.Reference;
@@ -14,6 +15,7 @@ import com.bioxx.tfc.api.TFCOptions;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.stats.StatList;
 import net.minecraft.world.Explosion;
@@ -129,6 +131,13 @@ public class BlockMetalOre extends BlockOre {
         }
         return ret;
     }
+    public static Item getDroppedItemMod(int meta)
+    {
+       if (meta < (Reference.MOD_ORE_METAL.length + 1))
+           return ModItems.smallOreChunk;
+       else
+           return null;
+    }
 
     @Override
     public void onBlockExploded(World world, int x, int y, int z, Explosion exp)
@@ -154,9 +163,9 @@ public class BlockMetalOre extends BlockOre {
         {
             int grade = te.extraData & 7;
             if(grade == 1)
-                ore += 1;
+                ore += 16;
             else if(grade == 2)
-                ore += 2;
+                ore += 32;
         }
         return ore;
     }

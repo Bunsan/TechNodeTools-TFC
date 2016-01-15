@@ -45,7 +45,7 @@ public class ItemOreMod extends ItemOre
                 "Poor Placeholder6", "Poor Placeholder7", "Poor Placeholder8", "Poor Placeholder9", "Poor Placeholder10",
                 "Poor Placeholder11", "Poor Placeholder12"
         };
-        setFolder("ores/");
+        setFolder("ore/");
         setCreativeTab(CreativeTab.TECHNODE_TAB);
     }
 

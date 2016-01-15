@@ -73,7 +73,9 @@ public class Reference {
             "Bauxite", "Native Osmium", "Scheelite", "Wolframite"
     };
 
-    public static final String[] MOD_ORE_MINERAL = {};
+    public static final String[] MOD_ORE_MINERAL = {
+            "Apatite", "Scapolite", "Strontium"
+    };
 
     public static final Item[] MOD_INGOTS = {
             ModItems.aluminumIngot,ModItems.osmiumIngot,ModItems.tungstenIngot,ModItems.electrumIngot,ModItems.cupronickelIngot,ModItems.invarIngot};

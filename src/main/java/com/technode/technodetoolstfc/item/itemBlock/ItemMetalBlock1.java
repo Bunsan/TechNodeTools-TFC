@@ -15,8 +15,8 @@ public class ItemMetalBlock1 extends ItemMetalBlock
     public ItemMetalBlock1(Block b)
     {
         super(b);
-        metaNames = new String[Reference.METALS.length];
-        System.arraycopy(Reference.METALS, 0, metaNames, 0, Reference.METALS.length);
+        metaNames = new String[Reference.METALS_ALL.length];
+        System.arraycopy(Reference.METALS_ALL, 0, metaNames, 0, Reference.METALS_ALL.length);
         setFolder("metal/");
     }
 

@@ -30,7 +30,7 @@ public class ItemReferences extends ModItems
 
         aluminumIngot = new ItemIngotMod().setUnlocalizedName("Aluminum Ingot");
         osmiumIngot = new ItemIngotMod().setUnlocalizedName("Osmium Ingot");
-        tungstenIngot = new ItemIngotMod().setUnlocalizedName("tungsten Ingot");
+        tungstenIngot = new ItemIngotMod().setUnlocalizedName("Tungsten Ingot");
 
         aluminumIngot2x = ((ItemIngotMod)new ItemIngotMod().setUnlocalizedName("Aluminum Double Ingot")).setSize(EnumSize.LARGE).setMetal("Aluminum", 200);
         osmiumIngot2x = ((ItemIngotMod)new ItemIngotMod().setUnlocalizedName("Osmium Double Ingot")).setSize(EnumSize.LARGE).setMetal("Osmium", 200);;

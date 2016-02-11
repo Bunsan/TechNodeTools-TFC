@@ -135,9 +135,9 @@ public class Recipes {
         manager.addRecipe(new AnvilRecipe(new ItemStack(TFCItems.redSteelSheet2x), new ItemStack(TFCItems.redSteelSheet2x), "block", AnvilReq.BLUESTEEL, new ItemStack(ModBlocks.alloyBlock, 1, 6)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
         manager.addRecipe(new AnvilRecipe(new ItemStack(TFCItems.roseGoldSheet2x), new ItemStack(TFCItems.roseGoldSheet2x), "block", AnvilReq.BRONZE, new ItemStack(ModBlocks.alloyBlock, 1, 7)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
         manager.addRecipe(new AnvilRecipe(new ItemStack(TFCItems.sterlingSilverSheet2x), new ItemStack(TFCItems.sterlingSilverSheet2x), "block", AnvilReq.BRONZE, new ItemStack(ModBlocks.alloyBlock, 1, 8)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
-        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.electrumSheet2x), new ItemStack(ModItems.electrumSheet2x), "block", AnvilReq.STONE, new ItemStack(ModBlocks.metalBlock, 1, 9)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
-        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.cupronickelSheet2x), new ItemStack(ModItems.cupronickelSheet2x), "block", AnvilReq.STONE, new ItemStack(ModBlocks.metalBlock, 1, 10)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
-        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.invarSheet2x), new ItemStack(ModItems.invarSheet2x), "block", AnvilReq.STONE, new ItemStack(ModBlocks.metalBlock, 1, 11)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.electrumSheet2x), new ItemStack(ModItems.electrumSheet2x), "block", AnvilReq.STONE, new ItemStack(ModBlocks.alloyBlock, 1, 9)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.cupronickelSheet2x), new ItemStack(ModItems.cupronickelSheet2x), "block", AnvilReq.STONE, new ItemStack(ModBlocks.alloyBlock, 1, 10)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.invarSheet2x), new ItemStack(ModItems.invarSheet2x), "block", AnvilReq.STONE, new ItemStack(ModBlocks.alloyBlock, 1, 11)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
     }
     private static void addTrapDoor(Item sheet, int index) {
         AnvilManager manager = AnvilManager.getInstance();

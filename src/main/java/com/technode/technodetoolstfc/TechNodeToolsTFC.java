@@ -1,9 +1,9 @@
 package com.technode.technodetoolstfc;
 
+import com.technode.technodetoolstfc.core.ModOreDictionary;
 import com.technode.technodetoolstfc.core.Recipes;
 import com.technode.technodetoolstfc.core.handler.ChunkEventHandler;
 import com.technode.technodetoolstfc.core.handler.network.InitClientWorldPacket;
-import com.technode.technodetoolstfc.core.proxy.ClientProxy;
 import com.technode.technodetoolstfc.core.proxy.CommonProxy;
 import com.technode.technodetoolstfc.core.ModDetails;
 import com.technode.technodetoolstfc.core.handler.ConfigurationHandler;
@@ -35,26 +35,37 @@ public class TechNodeToolsTFC
 
     @SidedProxy(clientSide = ModDetails.CLIENT_PROXY_CLASS, serverSide = ModDetails.SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
-    public static ClientProxy clientProxy;
 
     @EventHandler
     public void preInitialize(FMLPreInitializationEvent e)
     {
         instance = this;
-        ConfigurationHandler.init(e.getSuggestedConfigurationFile());
-        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        //Load Configs
+        proxy.loadOptions();
 
+        proxy.registerTickHandler();
 
+        // Register Key Bindings(Client only)
+        proxy.registerKeys();
+        // Register KeyBinding Handler (Client only)
+        proxy.registerKeyBindingHandler();
+        // Register Handler (Client only)
+        proxy.registerHandlers();
         //Register Tile Entites
         proxy.registerTileEntities(true);
+        //Register Items
         ItemReferences.itemReferences();
+        //Register Blocks
         BlockReferences.blockReferences();
+
+        //Register Gui Handler
+        proxy.registerGuiHandler();
+
         LogHelper.info("Pre Initialization Complete");
     }
 
     @EventHandler
     public void initialize(FMLInitializationEvent e) {
-        LogHelper.info("Initialization Complete");
 
         TerraFirmaCraft.PACKET_PIPELINE.registerPacket(InitClientWorldPacket.class);
 
@@ -65,12 +76,19 @@ public class TechNodeToolsTFC
         Recipes.registerItemRecipes();
         Recipes.registerTileRecipes();
         ItemHeatReferences.ItemHeatReferences();
+        ModOreDictionary.register();
 
         // Register all the render stuff for the client
-     //   proxy.registerRenderInformation();
+        proxy.registerRenderInformation();
 
         // Register the Chunk Load/Save Handler
         MinecraftForge.EVENT_BUS.register(new ChunkEventHandler());
+
+        //NEI + Walia Registration
+        proxy.registerWailaClasses();
+        proxy.hideNEIItems();
+
+        LogHelper.info("Initialization Complete");
     }
 
     @EventHandler

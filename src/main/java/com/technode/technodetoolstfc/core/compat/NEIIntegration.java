@@ -48,5 +48,11 @@ public class NEIIntegration
             API.hideItem(new ItemStack(ModItems.oreChunk, 1, 45));
             API.hideItem(new ItemStack(ModItems.oreChunk, 1, 46));
             API.hideItem(new ItemStack(ModItems.oreChunk, 1, 47));
+
+            API.hideItem(new ItemStack(ModBlocks.ingotPileMod));
+            API.hideItem(new ItemStack(ModBlocks.metalSheetMod));
+            API.hideItem(new ItemStack(ModBlocks.alloySheetMod));
+
+
         }
 }

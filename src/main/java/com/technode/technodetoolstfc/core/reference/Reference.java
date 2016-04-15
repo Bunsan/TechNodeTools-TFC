@@ -72,6 +72,10 @@ public class Reference {
     public static final String[] MOD_ORE_METAL = {
             "Bauxite", "Native Osmium", "Scheelite", "Wolframite"
     };
+    public static final String[] MOD_ORE_METAL_ALL = {
+            "Native Copper", "Native Gold", "Native Platinum", "Hematite", "Native Silver", "Cassiterite", "Galena", "Bismuthinite", "Garnierite",
+            "Malachite", "Magnetite", "Limonite", "Sphalerite", "Tetrahedrite", "Bauxite", "Native Osmium", "Scheelite", "Wolframite"
+    };
 
     public static final String[] MOD_ORE_MINERAL = {
             "Apatite", "Scapolite", "Strontium"
@@ -86,6 +90,9 @@ public class Reference {
             "Black Bronze", "Black Steel", "Blue Steel", "Brass", "Bronze", "Red Steel", "Rose Gold",
             "Sterling Silver", "Electrum", "Cupronickel", "Invar"
     };
+
+    public static final String[] NATIVE_COPPER = {};
+
 
 
 

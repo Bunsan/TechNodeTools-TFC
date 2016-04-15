@@ -20,6 +20,7 @@ public class ItemReferences extends ModItems
     {
         oreChunk = new ItemOreMod().setUnlocalizedName("Ore");
         oreMineralChunk = new ItemMineralOreMod().setUnlocalizedName("Mineral");
+        orePile = new ItemOrePile().setUnlocalizedName("Pile");
         smallOreChunk = new ItemOreSmallMod().setUnlocalizedName("OreNugget");
         smallMetalChunk = new ItemMetalNugget().setUnlocalizedName("MetalNugget");
         smallAlloyChunk = new ItemAlloyNugget().setUnlocalizedName("AlloyNugget");

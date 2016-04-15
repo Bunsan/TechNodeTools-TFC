@@ -7,6 +7,7 @@ public class ModItems
 {
     public static Item oreChunk;
     public static Item oreMineralChunk;
+    public static Item orePile;
     public static Item smallOreChunk;
     public static Item smallMetalChunk;
     public static Item smallAlloyChunk;
@@ -49,6 +50,7 @@ public class ModItems
     {
         GameRegistry.registerItem(oreChunk, oreChunk.getUnlocalizedName());
         GameRegistry.registerItem(oreMineralChunk, oreMineralChunk.getUnlocalizedName());
+        GameRegistry.registerItem(orePile, orePile.getUnlocalizedName());
         GameRegistry.registerItem(smallOreChunk, smallOreChunk.getUnlocalizedName());
         GameRegistry.registerItem(smallMetalChunk, smallMetalChunk.getUnlocalizedName());
         GameRegistry.registerItem(smallAlloyChunk, smallAlloyChunk.getUnlocalizedName());

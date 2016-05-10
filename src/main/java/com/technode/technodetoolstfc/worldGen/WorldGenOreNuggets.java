@@ -21,21 +21,29 @@ public class WorldGenOreNuggets implements IWorldGenerator {
     public WorldGenOreNuggets() {
     }
 
-    public boolean generateRocks(World world, Random random, int i, int j, int k) {
-        if ((world.isAirBlock(i, j + 1, k) || world.getBlock(i, j + 1, k) == Blocks.snow || world.getBlock(i, j + 1, k) == TFCBlocks.tallGrass) &&
-                (world.getBlock(i, j, k).getMaterial() == Material.grass || world.getBlock(i, j, k).getMaterial() == Material.rock) && world.getBlock(i, j, k).isOpaqueCube()) {
-            ItemStack sample = getCoreSample(world, i, j, k);
-            if (world.rand.nextInt(3) == 0 && sample != null) {
-                if (world.setBlock(i, j + 1, k, TFCBlocks.worldItem, 0, 2)) {
-                    TEWorldItem te = (TEWorldItem) world.getTileEntity(i, j + 1, k);
-                    te.storage[0] = sample;
+    private boolean generateOreNuggets(World world, Random random, int i, int j, int k) {
+        LogHelper.info(world.getBlock(i, j, k) + " under " + world.getBlock(i, j + 1, k));
+        if ((world.isAirBlock(i, j + 1, k) || world.getBlock(i, j + 1, k) == Blocks.snow || world.getBlock(i, j + 1, k) == TFCBlocks.tallGrass)
+                && (world.getBlock(i, j, k).getMaterial() == Material.grass || world.getBlock(i, j, k).getMaterial() == Material.rock)
+                && world.getBlock(i, j, k).isOpaqueCube())
+        {
+            LogHelper.info("check valid");
+            if (world.rand.nextInt(3) == 0) {
+                LogHelper.info("nextInt == 0");
+                ItemStack is = getOreCoreSample(world, i, j, k);
+                if (is != null) {
+                    LogHelper.info("is != null");
+                    if (world.setBlock(i, j + 1, k, TFCBlocks.worldItem, 0, 2)) {
+                        TEWorldItem te = (TEWorldItem) world.getTileEntity(i, j + 1, k);
+                        te.storage[0] = is;
+                    }
                 }
             }
         }
         return true;
     }
 
-    private ItemStack getCoreSample(World world, int xCoord, int yCoord, int zCoord) {
+    private ItemStack getOreCoreSample(World world, int xCoord, int yCoord, int zCoord) {
         ArrayList<Item> coreSample = new ArrayList<Item>();
         ArrayList<ItemStack> coreSampleStacks = new ArrayList<ItemStack>();
         for (int x = -15; x < 16; x++) {
@@ -71,9 +79,9 @@ public class WorldGenOreNuggets implements IWorldGenerator {
 
         //ModOres
         for (int itemCount = 0; itemCount < 8; itemCount++) {
-            int xCoord = chunkX + random.nextInt(16) + 8;
-            int zCoord = chunkZ + random.nextInt(16) + 8;
-            generateRocks(world, random, xCoord, world.getTopSolidOrLiquidBlock(xCoord, zCoord) - 1, zCoord);
+            int xDir = chunkX + random.nextInt(16) + 8;
+            int zDir = chunkZ + random.nextInt(16) + 8;
+            generateOreNuggets(world, random, xDir, world.getTopSolidOrLiquidBlock(xDir, zDir) - 1, zDir);
         }
 
     }

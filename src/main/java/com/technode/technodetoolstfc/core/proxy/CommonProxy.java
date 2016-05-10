@@ -2,6 +2,7 @@ package com.technode.technodetoolstfc.core.proxy;
 
 import com.technode.technodetoolstfc.TechNodeToolsTFC;
 import com.technode.technodetoolstfc.core.handler.GuiHandler;
+import com.technode.technodetoolstfc.core.handler.ServerTickHandler;
 import com.technode.technodetoolstfc.tileentity.TEModIngotPile;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.network.NetworkRegistry;
@@ -65,7 +66,7 @@ public class CommonProxy {
 
     public void registerTickHandler()
     {
-        //FMLCommonHandler.instance().bus().register(new ServerTickHandler());
+        FMLCommonHandler.instance().bus().register(new ServerTickHandler());
     }
 
     public void registerTileEntities(boolean b) {
@@ -79,6 +80,4 @@ public class CommonProxy {
     public void registerWailaClasses() {}
 
     public void uploadKeyBindingsToGame() {}
-
-    public void registerMenuItems() {}
 }

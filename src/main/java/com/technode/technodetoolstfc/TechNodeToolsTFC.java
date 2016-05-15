@@ -15,6 +15,7 @@ import com.technode.technodetoolstfc.core.handler.CraftingHandler;
 
 import com.bioxx.tfc.TerraFirmaCraft;
 
+import com.technode.technodetoolstfc.worldGen.WorldGenOreNuggets;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -23,6 +24,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraftforge.common.MinecraftForge;
 
 @Mod(modid = ModDetails.ModID, name = ModDetails.ModName, version = ModDetails.ModVersion, guiFactory = ModDetails.GUI_FACTORY_CLASS)
@@ -60,6 +62,8 @@ public class TechNodeToolsTFC
 
         //Register Gui Handler
         proxy.registerGuiHandler();
+
+        GameRegistry.registerWorldGenerator(new WorldGenOreNuggets(), 5);
 
         LogHelper.info("Pre Initialization Complete");
     }

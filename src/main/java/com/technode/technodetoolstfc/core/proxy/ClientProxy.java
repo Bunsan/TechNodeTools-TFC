@@ -1,7 +1,10 @@
 package com.technode.technodetoolstfc.core.proxy;
 
 
+import com.technode.technodetoolstfc.TechNodeToolsTFC;
+import com.technode.technodetoolstfc.core.ModDetails;
 import com.technode.technodetoolstfc.core.compat.*;
+import com.technode.technodetoolstfc.core.utility.LogHelper;
 import com.technode.technodetoolstfc.render.TESR.TESRIngotPileMod;
 import com.technode.technodetoolstfc.tileentity.TEModIngotPile;
 import cpw.mods.fml.client.registry.ClientRegistry;
@@ -44,7 +47,10 @@ public class ClientProxy extends CommonProxy {
     @Override
     public void hideNEIItems()
     {
-        if (Loader.isModLoaded("NotEnoughItems")) NEIIntegration.hideNEIItems();
+        if (Loader.isModLoaded(ModDetails.MODID_NEI)) {
+            NEICompat.hideNEIItems();
+            LogHelper.info("NEI is loaded.");
+        }
     }
 
     @Override
@@ -63,7 +69,9 @@ public class ClientProxy extends CommonProxy {
 
     @Override
     public void registerGuiHandler()
-    {}
+    {
+        NetworkRegistry.INSTANCE.registerGuiHandler(TechNodeToolsTFC.instance, new com.technode.technodetoolstfc.core.handler.client.GuiHandler());
+    }
 
     @Override
     public void registerHandlers()

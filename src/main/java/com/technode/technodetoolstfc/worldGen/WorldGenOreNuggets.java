@@ -79,8 +79,8 @@ public class WorldGenOreNuggets implements IWorldGenerator {
 
         //ModOres
         for (int itemCount = 0; itemCount < 8; itemCount++) {
-            int xDir = chunkX + random.nextInt(16) + 8;
-            int zDir = chunkZ + random.nextInt(16) + 8;
+            int xDir = chunkX + random.nextInt(16) + 7;
+            int zDir = chunkZ + random.nextInt(16) + 7;
             generateOreNuggets(world, random, xDir, world.getTopSolidOrLiquidBlock(xDir, zDir) - 1, zDir);
         }
 

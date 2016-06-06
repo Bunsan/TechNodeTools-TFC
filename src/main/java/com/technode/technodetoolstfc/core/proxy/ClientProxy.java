@@ -6,7 +6,7 @@ import com.technode.technodetoolstfc.core.ModDetails;
 import com.technode.technodetoolstfc.core.compat.*;
 import com.technode.technodetoolstfc.core.utility.LogHelper;
 import com.technode.technodetoolstfc.render.TESR.TESRIngotPileMod;
-import com.technode.technodetoolstfc.tileentity.TEModIngotPile;
+import com.technode.technodetoolstfc.tileentity.TEIngotPileMod;
 import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.network.NetworkRegistry;
@@ -95,7 +95,7 @@ public class ClientProxy extends CommonProxy {
     public void registerTileEntities(boolean b)
     {
         super.registerTileEntities(false);
-        ClientRegistry.registerTileEntity(TEModIngotPile.class, "ingotPileMod", new TESRIngotPileMod());
+        ClientRegistry.registerTileEntity(TEIngotPileMod.class, "ingotPileMod", new TESRIngotPileMod());
     }
 
     @Override

@@ -24,6 +24,6 @@ public class ModBlocks
         GameRegistry.registerBlock(oreMineralMod, "mineral");
         GameRegistry.registerBlock(metalSheetMod, "metalSheet");
         GameRegistry.registerBlock(alloySheetMod, "alloySheet");
-        GameRegistry.registerBlock(ingotPileMod, "ingotPile");
+        GameRegistry.registerBlock(ingotPileMod, "ingotPileMod");
     }
 }

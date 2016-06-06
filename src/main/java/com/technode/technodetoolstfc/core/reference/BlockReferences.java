@@ -18,7 +18,7 @@ public class BlockReferences extends ModBlocks
         oreMineralMod = new BlockMineralOre(Material.iron) {}.setHardness(10F).setResistance(10F).setBlockName("Ore");
         metalSheetMod = new BlockMetalSheetMod().setBlockName("MetalSheet").setHardness(1);
         alloySheetMod = new BlockAlloySheetMod().setBlockName("MetalSheet").setHardness(1);
-        ingotPileMod = new BlockIngotPileMod().setBlockName("ingotpile").setHardness(3);
+        ingotPileMod = new BlockIngotPileMod().setBlockName("ingotPileMod").setHardness(3);
 
 
         alloyBlock.setHarvestLevel("pickaxe", 1);

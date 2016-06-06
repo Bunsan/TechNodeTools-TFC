@@ -3,7 +3,7 @@ package com.technode.technodetoolstfc.core.proxy;
 import com.technode.technodetoolstfc.TechNodeToolsTFC;
 import com.technode.technodetoolstfc.core.handler.GuiHandler;
 import com.technode.technodetoolstfc.core.handler.ServerTickHandler;
-import com.technode.technodetoolstfc.tileentity.TEModIngotPile;
+import com.technode.technodetoolstfc.tileentity.TEIngotPileMod;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -71,7 +71,7 @@ public class CommonProxy {
 
     public void registerTileEntities(boolean b) {
         if (b) {
-            GameRegistry.registerTileEntity(TEModIngotPile.class, "ingotPile");
+            GameRegistry.registerTileEntity(TEIngotPileMod.class, "ingotPileMod");
         }
     }
 

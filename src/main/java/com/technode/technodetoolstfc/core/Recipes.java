@@ -9,6 +9,8 @@ import com.bioxx.tfc.api.Enums.RuleEnum;
 import com.bioxx.tfc.api.TFCBlocks;
 import com.bioxx.tfc.api.TFCItems;
 
+import com.technode.technodetoolstfc.core.crafting.PilerManager;
+import com.technode.technodetoolstfc.core.crafting.PilerRecipe;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -147,5 +149,12 @@ public class Recipes {
         manager.addRecipe(new AnvilRecipe(new ItemStack(sheet), new ItemStack(ModItems.electrumIngot), "trapdoor", AnvilReq.COPPER, new ItemStack(TFCBlocks.metalTrapDoor, 1, index + (24 << 5))));
         manager.addRecipe(new AnvilRecipe(new ItemStack(sheet), new ItemStack(ModItems.cupronickelIngot), "trapdoor", AnvilReq.COPPER, new ItemStack(TFCBlocks.metalTrapDoor, 1, index + (25 << 5))));
         manager.addRecipe(new AnvilRecipe(new ItemStack(sheet), new ItemStack(ModItems.invarIngot), "trapdoor", AnvilReq.COPPER, new ItemStack(TFCBlocks.metalTrapDoor, 1, index + (26 << 5))));
+    }
+
+    public static void registerPilerRecipes(World world)
+    {
+        PilerManager manager = PilerManager.getInstance();
+
+        manager.addRecipe(new PilerRecipe(new ItemStack(ModItems.oreChunk, 1, 0), new ItemStack(ModItems.orePile, 1, 0)));
     }
 }

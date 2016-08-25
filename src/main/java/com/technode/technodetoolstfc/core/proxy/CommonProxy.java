@@ -1,6 +1,7 @@
 package com.technode.technodetoolstfc.core.proxy;
 
 import com.technode.technodetoolstfc.TechNodeToolsTFC;
+import com.technode.technodetoolstfc.core.ModOptions;
 import com.technode.technodetoolstfc.core.handler.GuiHandler;
 import com.technode.technodetoolstfc.core.handler.ServerTickHandler;
 import com.technode.technodetoolstfc.tileentity.TEIngotPileMod;
@@ -42,6 +43,7 @@ public class CommonProxy {
     public void loadOptions()
     {
         //Load our settings from the Options file
+        ModOptions.loadSettings();
     }
 
     public void onClientLogin() {}

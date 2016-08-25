@@ -14,7 +14,6 @@ public class ModDetails
     public static final String ModChannel = "technodetoolstfc";
     public static final String SERVER_PROXY_CLASS = "com.technode.technodetoolstfc.core.proxy.CommonProxy";
     public static final String CLIENT_PROXY_CLASS = "com.technode.technodetoolstfc.core.proxy.ClientProxy";
-    public static final String GUI_FACTORY_CLASS = "com.technode.technodetoolstfc.client.gui.GuiFactory";
 
     public static final String AssetPath = "/assets/" + ModID + "/";
     public static final String AssetPathGui = "textures/gui/";

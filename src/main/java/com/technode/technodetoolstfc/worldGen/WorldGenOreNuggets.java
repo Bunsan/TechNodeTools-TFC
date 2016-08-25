@@ -5,7 +5,6 @@ import com.bioxx.tfc.WorldGen.TFCBiome;
 import com.bioxx.tfc.api.TFCBlocks;
 import com.technode.technodetoolstfc.block.BlockMetalOre;
 import com.technode.technodetoolstfc.core.ModBlocks;
-import com.technode.technodetoolstfc.core.utility.LogHelper;
 import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.block.material.Material;
 import net.minecraft.init.Blocks;
@@ -22,17 +21,13 @@ public class WorldGenOreNuggets implements IWorldGenerator {
     }
 
     private boolean generateOreNuggets(World world, Random random, int i, int j, int k) {
-        LogHelper.info(world.getBlock(i, j, k) + " under " + world.getBlock(i, j + 1, k));
         if ((world.isAirBlock(i, j + 1, k) || world.getBlock(i, j + 1, k) == Blocks.snow || world.getBlock(i, j + 1, k) == TFCBlocks.tallGrass)
                 && (world.getBlock(i, j, k).getMaterial() == Material.grass || world.getBlock(i, j, k).getMaterial() == Material.rock)
                 && world.getBlock(i, j, k).isOpaqueCube())
         {
-            LogHelper.info("check valid");
             if (world.rand.nextInt(3) == 0) {
-                LogHelper.info("nextInt == 0");
                 ItemStack is = getOreCoreSample(world, i, j, k);
                 if (is != null) {
-                    LogHelper.info("is != null");
                     if (world.setBlock(i, j + 1, k, TFCBlocks.worldItem, 0, 2)) {
                         TEWorldItem te = (TEWorldItem) world.getTileEntity(i, j + 1, k);
                         te.storage[0] = is;

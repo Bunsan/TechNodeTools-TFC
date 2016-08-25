@@ -1,7 +1,6 @@
 package com.technode.technodetoolstfc.item;
 
 import com.technode.technodetoolstfc.core.reference.CreativeTab;
-import com.technode.technodetoolstfc.core.reference.ItemReferences;
 import com.technode.technodetoolstfc.core.reference.Reference;
 
 import com.bioxx.tfc.Items.ItemOreSmall;

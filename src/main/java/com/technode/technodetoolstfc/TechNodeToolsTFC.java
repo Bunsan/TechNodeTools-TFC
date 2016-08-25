@@ -1,15 +1,10 @@
 package com.technode.technodetoolstfc;
 
-import com.technode.technodetoolstfc.core.ModOreDictionary;
-import com.technode.technodetoolstfc.core.Recipes;
+import com.technode.technodetoolstfc.core.*;
 import com.technode.technodetoolstfc.core.handler.ChunkEventHandler;
 import com.technode.technodetoolstfc.core.handler.network.InitClientWorldPacket;
 import com.technode.technodetoolstfc.core.proxy.CommonProxy;
-import com.technode.technodetoolstfc.core.ModDetails;
-import com.technode.technodetoolstfc.core.handler.ConfigurationHandler;
-import com.technode.technodetoolstfc.core.reference.BlockReferences;
 import com.technode.technodetoolstfc.core.reference.ItemHeatReferences;
-import com.technode.technodetoolstfc.core.reference.ItemReferences;
 import com.technode.technodetoolstfc.core.utility.LogHelper;
 import com.technode.technodetoolstfc.core.handler.CraftingHandler;
 
@@ -27,7 +22,9 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraftforge.common.MinecraftForge;
 
-@Mod(modid = ModDetails.ModID, name = ModDetails.ModName, version = ModDetails.ModVersion, guiFactory = ModDetails.GUI_FACTORY_CLASS)
+import java.io.File;
+
+@Mod(modid = ModDetails.ModID, name = ModDetails.ModName, version = ModDetails.ModVersion)
 public class TechNodeToolsTFC
 {
     @Instance(ModDetails.ModID)
@@ -37,6 +34,11 @@ public class TechNodeToolsTFC
 
     @SidedProxy(clientSide = ModDetails.CLIENT_PROXY_CLASS, serverSide = ModDetails.SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
+
+    public File getMinecraftDirectory()
+    {
+        return proxy.getMinecraftDirectory();
+    }
 
     @EventHandler
     public void preInitialize(FMLPreInitializationEvent e)
@@ -56,9 +58,9 @@ public class TechNodeToolsTFC
         //Register Tile Entites
         proxy.registerTileEntities(true);
         //Register Items
-        ItemReferences.itemReferences();
+        ModItems.ModItemsInit();
         //Register Blocks
-        BlockReferences.blockReferences();
+        ModBlocks.ModBlocksInit();
 
         //Register Gui Handler
         proxy.registerGuiHandler();
@@ -98,6 +100,7 @@ public class TechNodeToolsTFC
     @EventHandler
     public void postInitialize(FMLPostInitializationEvent e)
     {
+        ModOptions.reloadOres();
         LogHelper.info("Post Initialization Complete");
     }
 }

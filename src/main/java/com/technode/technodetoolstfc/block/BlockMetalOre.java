@@ -1,6 +1,5 @@
 package com.technode.technodetoolstfc.block;
 
-import com.bioxx.tfc.api.TFCItems;
 import com.technode.technodetoolstfc.core.ModDetails;
 import com.technode.technodetoolstfc.core.ModItems;
 import com.technode.technodetoolstfc.core.reference.Reference;
@@ -18,6 +17,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.stats.StatList;
+import net.minecraft.util.IIcon;
 import net.minecraft.world.Explosion;
 import net.minecraft.world.World;
 
@@ -28,11 +28,11 @@ import java.util.Random;
 
 public class BlockMetalOre extends BlockOre {
 
+    public String[] blockNames = Reference.MOD_ORE_METAL;
+
     public BlockMetalOre(Material mat)
     {
         super(mat);
-        blockNames = new String[Reference.MOD_ORE_METAL.length];
-        System.arraycopy(Reference.MOD_ORE_METAL, 0, blockNames, 0, Reference.MOD_ORE_METAL.length);
 
     }
 
@@ -55,6 +55,15 @@ public class BlockMetalOre extends BlockOre {
 
     @Override
     public int quantityDropped(int meta, int fortune, Random random) { return 1; }
+
+    @Override
+    public IIcon getIcon(int side, int meta) {
+        if (meta >= icons.length)
+            return icons[0];
+        return icons[meta];
+    }
+
+    protected IIcon[] icons = new IIcon[blockNames.length];
 
     @Override
     public void registerBlockIcons(IIconRegister iconRegisterer)

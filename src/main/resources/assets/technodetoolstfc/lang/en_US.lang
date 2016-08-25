@@ -33,6 +33,15 @@ item.Mineral.Strontium.name=Strontium
 
 #== Blocks ==
 
+tile.Ore.Bauxite.name=Bauxite
+tile.Ore.Native Osmium.name=Native Osmium
+tile.Ore.Scheelite.name=Scheelite
+tile.Ore.Wolframite.name=Wolframite
+
+tile.Ore.Apatite.name=Apatite
+tile.Ore.Scapolite.name=Scapolite
+tile.Ore.Strontium.name=Strontium
+
 tile.MetalBlock.Bismuth.name=Bismuth Block
 tile.MetalBlock.Copper.name=Copper Block
 tile.MetalBlock.Gold.name=Gold Block

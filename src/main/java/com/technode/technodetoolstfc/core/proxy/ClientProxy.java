@@ -3,6 +3,7 @@ package com.technode.technodetoolstfc.core.proxy;
 
 import com.technode.technodetoolstfc.TechNodeToolsTFC;
 import com.technode.technodetoolstfc.core.ModDetails;
+import com.technode.technodetoolstfc.core.ModOptions;
 import com.technode.technodetoolstfc.core.compat.*;
 import com.technode.technodetoolstfc.core.utility.LogHelper;
 import com.technode.technodetoolstfc.render.TESR.TESRIngotPileMod;
@@ -64,7 +65,7 @@ public class ClientProxy extends CommonProxy {
     public void loadOptions()
     {
         //Load our settings from the server
-       // ModOptions.loadSettings();
+        ModOptions.loadSettings();
     }
 
     @Override

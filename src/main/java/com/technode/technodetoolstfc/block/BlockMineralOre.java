@@ -15,11 +15,12 @@ import java.util.Random;
 
 public class BlockMineralOre extends BlockMetalOre
 {
+    //public String[] blocknames = Reference.MOD_ORE_MINERAL;
+
     public BlockMineralOre(Material mat)
     {
         super(mat);
-        blockNames = new String[Reference.MOD_ORE_MINERAL.length];
-        System.arraycopy(Reference.MOD_ORE_MINERAL, 0, blockNames, 0, Reference.MOD_ORE_MINERAL.length);
+        blockNames = Reference.MOD_ORE_MINERAL;
     }
 
     @Override

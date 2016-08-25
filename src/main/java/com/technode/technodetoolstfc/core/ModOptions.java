@@ -31,6 +31,15 @@ public class ModOptions {
     public static boolean enableOsmiumSpawn = true;
     public static boolean enableScheeliteSpawn = true;
     public static boolean enableWolframiteSpawn = true;
+    public static boolean enableCobaltiteSpawn = false;
+    public static boolean enableChromiteSpawn = false;
+    public static boolean enableTitaniteSpawn = false;
+    public static boolean enableLepidoliteSpawn = false;
+    public static boolean enableMagnesiteSpawn = false;
+    public static boolean enablePyrolusiteSpawn = false;
+    public static boolean enableMolybdeniteSpawn = false;
+    public static boolean enableGreenockiteSpawn = false;
+    public static boolean enableIridiumSpawn = false;
 
     //Mineral
     public static boolean enableApatiteSpawn = true;
@@ -43,6 +52,11 @@ public class ModOptions {
     public static boolean enableElectrum = true;
     public static boolean enableCuproNickel = true;
     public static boolean enableInvar = true;
+    public static boolean enableAluminumBrass = true;
+    public static boolean enableAlumite = true;
+    public static boolean enableManyullyn = true;
+    public static boolean enableStainlessSteel = true;
+
 
     private static final String[] ALLOWED_TYPES = new String[]{"default", "veins"};
     private static final String[] ALLOWED_SIZES = new String[]{"small", "medium", "large"};
@@ -82,6 +96,10 @@ public class ModOptions {
         enableElectrum = getBooleanFor(config, CRAFTING, "EnableElectrum", enableElectrum, "Set to true to allow electrum alloy crafting.");
         enableCuproNickel = getBooleanFor(config, CRAFTING, "EnableCuproNickel", enableCuproNickel, "Set to true to allow cupronikel (constantan) alloy crafting.");
         enableInvar = getBooleanFor(config, CRAFTING, "EnableInvar", enableInvar, "Set to true to allow invar alloy crafting.");
+        enableAluminumBrass = getBooleanFor(config, CRAFTING, "EnableAluminumBrass", enableAluminumBrass, "Set to true to allow aluminum brass alloy crafting.");
+        enableAlumite = getBooleanFor(config, CRAFTING, "EnableAlumite", enableAlumite, "Set to true to allow alumite alloy crafting.");
+        enableManyullyn = getBooleanFor(config, CRAFTING, "EnableManyullyn", enableManyullyn, "Set to true to allow manyullyn alloy crafting.");
+        enableStainlessSteel = getBooleanFor(config, CRAFTING, "EnableStainlessSteel", enableStainlessSteel, "Set to true to allow stainless steel alloy crafting.");
 
         if (config != null)
             config.save();
@@ -194,26 +212,53 @@ public class ModOptions {
         if (enableBauxiteSpawn) {
             oreList.put("Bauxite", getOreData("Bauxite", "veins", "medium", ModID + ":metalOre", 0, 120, new String[]{"granite", "gneiss", "basalt", "shale"}, 5, 128, 80, 60));
         }
-        if (ModOptions.enableOsmiumSpawn) {
+        if (enableOsmiumSpawn) {
             oreList.put("Native Osmium", getOreData("Native Osmium", "veins", "medium", ModID + ":metalOre", 1, 100, new String[]{"sedimentary"}, 5, 128, 80, 40));
         }
-        if (ModOptions.enableScheeliteSpawn) {
+        if (enableScheeliteSpawn) {
             oreList.put("Scheelite", getOreData("Scheelite", "veins", "medium", ModID + ":metalOre", 2, 150, new String[]{"igneous intrusive"}, 5, 128, 80, 60));
             //Surface veins
             oreList.put("Scheelite Surface", getOreData("Scheelite Surface", "veins", "medium", ModID + ":metalOre", 2, 120, new String[]{"granite"}, 128, 240, 40, 40));
         }
-        if (ModOptions.enableWolframiteSpawn) {
+        if (enableWolframiteSpawn) {
             oreList.put("Wolframite", getOreData("Wolframite", "veins", "medium", ModID + ":metalOre", 3, 150, new String[]{"igneous intrusive"}, 5, 128, 80, 60));
+        }
+        if (enableCobaltiteSpawn) {
+            oreList.put("Cobaltite", getOreData("Cobaltite", "veins", "medium", ModID + ":metalOre", 4, 120, new String[]{"granite", "gneiss", "basalt", "shale"}, 5, 128, 80, 60));
+        }
+        if (enableChromiteSpawn) {
+            oreList.put("Chromite", getOreData("Chromite", "veins", "medium", ModID + ":metalOre", 5, 100, new String[]{"sedimentary"}, 5, 128, 80, 40));
+        }
+        if (enableTitaniteSpawn) {
+            oreList.put("Titanite", getOreData("Titanite", "veins", "medium", ModID + ":metalOre", 6, 150, new String[]{"igneous intrusive"}, 5, 128, 80, 60));
+        }
+        if (enableLepidoliteSpawn) {
+            oreList.put("Lepidolite", getOreData("Lepidolite", "veins", "medium", ModID + ":metalOre", 8, 150, new String[]{"igneous intrusive"}, 5, 128, 80, 60));
+        }
+        if (enableMagnesiteSpawn) {
+            oreList.put("Magnesite", getOreData("Magnesite", "veins", "medium", ModID + ":metalOre", 4, 120, new String[]{"granite", "gneiss", "basalt", "shale"}, 5, 128, 80, 60));
+        }
+        if (enablePyrolusiteSpawn) {
+            oreList.put("Pyrolusite", getOreData("Pyrolusite", "veins", "medium", ModID + ":metalOre", 5, 100, new String[]{"sedimentary"}, 5, 128, 80, 40));
+        }
+        if (enableMolybdeniteSpawn) {
+            oreList.put("Molybdenite", getOreData("Molybdenite", "veins", "medium", ModID + ":metalOre", 6, 150, new String[]{"igneous intrusive"}, 5, 128, 80, 60));
+        }
+        if (enableGreenockiteSpawn) {
+            oreList.put("Greenockite", getOreData("Greenockite", "veins", "medium", ModID + ":metalOre", 8, 150, new String[]{"igneous intrusive"}, 5, 128, 80, 60));
+        }
+        if (enableIridiumSpawn) {
+            oreList.put("Native Iridium", getOreData("Native Iridium", "veins", "medium", ModID + ":metalOre", 8, 150, new String[]{"igneous intrusive"}, 5, 128, 80, 60));
         }
 
         //Minerals
-        if (ModOptions.enableApatiteSpawn) {
+        if (enableApatiteSpawn) {
             oreList.put("Apatite", getOreData("Apatite", "default", "large", ModID + ":mineralOre", 0, 150, new String[]{"chalk", "conglomerate", "limestone", "shale"}, 5, 128, 90, 40));
         }
-        if (ModOptions.enableScapoliteSpawn) {
+        if (enableScapoliteSpawn) {
             oreList.put("Scapolite", getOreData("Scapolite", "veins", "medium", ModID + ":mineralOre", 1, 120, new String[]{"gabbro", "diorite", "gneiss", "limestone"}, 5, 128, 80, 60));
         }
-        if (ModOptions.enableStrontiumSpawn) {
+        if (enableStrontiumSpawn) {
             oreList.put("Strontium", getOreData("Strontium", "veins", "medium", ModID + ":mineralOre", 2, 150, new String[]{"sedimentary"}, 5, 128, 80, 60));
         }
 

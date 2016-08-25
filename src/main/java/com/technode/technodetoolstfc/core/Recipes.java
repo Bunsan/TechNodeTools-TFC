@@ -49,6 +49,15 @@ public class Recipes {
             GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 12), new ItemStack(ModItems.aluminumIngot), "itemChisel"));
             GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 13), new ItemStack(ModItems.osmiumIngot), "itemChisel"));
             GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 14), new ItemStack(ModItems.tungstenIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 15), new ItemStack(ModItems.cobaltIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 16), new ItemStack(ModItems.chromiumIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 17), new ItemStack(ModItems.titaniumIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 18), new ItemStack(ModItems.lithiumIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 19), new ItemStack(ModItems.magnesiumIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 20), new ItemStack(ModItems.manganeseIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 21), new ItemStack(ModItems.molybdenumIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 22), new ItemStack(ModItems.cadmiumIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 23), new ItemStack(ModItems.iridiumIngot), "itemChisel"));
 
             GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 0), new ItemStack(TFCItems.bismuthBronzeIngot), "itemChisel"));
             GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 1), new ItemStack(TFCItems.blackBronzeIngot), "itemChisel"));
@@ -73,6 +82,15 @@ public class Recipes {
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.aluminumUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.aluminumIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.osmiumUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.osmiumIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tungstenUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.tungstenIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cobaltUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.cobaltIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.chromiumUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.chromiumIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.titaniumUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.titaniumIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.lithiumUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.lithiumIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.magnesiumUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.magnesiumIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.manganeseUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.manganeseIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.molybdenumUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.molybdenumIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cadmiumUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.cadmiumIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.iridiumUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.iridiumIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
 
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.electrumUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.electrumIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cupronickelUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.cupronickelIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
@@ -81,6 +99,15 @@ public class Recipes {
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.aluminumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.aluminumUnshaped, 1)));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.osmiumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.osmiumUnshaped, 1)));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tungstenIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.tungstenUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cobaltIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.cobaltUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.chromiumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.chromiumUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.titaniumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.titaniumUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.lithiumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.lithiumUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.magnesiumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.magnesiumUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.manganeseIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.manganeseUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.molybdenumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.molybdenumUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cadmiumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.cadmiumUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.iridiumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.iridiumUnshaped, 1)));
 
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.electrumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.electrumUnshaped, 1)));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cupronickelIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.cupronickelUnshaped, 1)));
@@ -127,6 +154,15 @@ public class Recipes {
         manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.aluminumSheet2x), new ItemStack(ModItems.aluminumSheet2x), "block", AnvilReq.COPPER, new ItemStack(ModBlocks.metalBlock, 1, 12)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
         manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.osmiumSheet2x), new ItemStack(ModItems.osmiumSheet2x), "block", AnvilReq.COPPER, new ItemStack(ModBlocks.metalBlock, 1, 13)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
         manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.tungstenSheet2x), new ItemStack(ModItems.tungstenSheet2x), "block", AnvilReq.COPPER, new ItemStack(ModBlocks.metalBlock, 1, 14)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.cobaltSheet2x), new ItemStack(ModItems.cobaltSheet2x), "block", AnvilReq.BLACKSTEEL, new ItemStack(ModBlocks.metalBlock, 1, 15)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.chromiumSheet2x), new ItemStack(ModItems.chromiumSheet2x), "block", AnvilReq.BLACKSTEEL, new ItemStack(ModBlocks.metalBlock, 1, 16)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.titaniumSheet2x), new ItemStack(ModItems.titaniumSheet2x), "block", AnvilReq.BLUESTEEL, new ItemStack(ModBlocks.metalBlock, 1, 17)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.lithiumSheet2x), new ItemStack(ModItems.lithiumSheet2x), "block", AnvilReq.WROUGHTIRON, new ItemStack(ModBlocks.metalBlock, 1, 18)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.magnesiumSheet2x), new ItemStack(ModItems.magnesiumSheet2x), "block", AnvilReq.WROUGHTIRON, new ItemStack(ModBlocks.metalBlock, 1, 18)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.manganeseSheet2x), new ItemStack(ModItems.manganeseSheet2x), "block", AnvilReq.WROUGHTIRON, new ItemStack(ModBlocks.metalBlock, 1, 20)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.molybdenumSheet2x), new ItemStack(ModItems.molybdenumSheet2x), "block", AnvilReq.BLACKSTEEL, new ItemStack(ModBlocks.metalBlock, 1, 21)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.cadmiumSheet2x), new ItemStack(ModItems.cadmiumSheet2x), "block", AnvilReq.WROUGHTIRON, new ItemStack(ModBlocks.metalBlock, 1, 22)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.iridiumSheet2x), new ItemStack(ModItems.iridiumSheet2x), "block", AnvilReq.BLUESTEEL, new ItemStack(ModBlocks.metalBlock, 1, 23)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
 
         manager.addRecipe(new AnvilRecipe(new ItemStack(TFCItems.bismuthBronzeSheet2x), new ItemStack(TFCItems.bismuthBronzeSheet2x), "block", AnvilReq.BRONZE, new ItemStack(ModBlocks.alloyBlock, 1, 0)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
         manager.addRecipe(new AnvilRecipe(new ItemStack(TFCItems.blackBronzeSheet2x), new ItemStack(TFCItems.blackBronzeSheet2x), "block", AnvilReq.BRONZE, new ItemStack(ModBlocks.alloyBlock, 1, 1)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));

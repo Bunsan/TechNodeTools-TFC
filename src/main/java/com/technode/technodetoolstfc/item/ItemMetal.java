@@ -55,6 +55,15 @@ public class ItemMetal extends ItemOreSmall implements ISmeltable
             case 12: return Reference.ALUMINUM;
             case 13: return Reference.OSMIUM;
             case 14: return Reference.TUNGSTEN;
+            case 15: return Reference.COBALT;
+            case 16: return Reference.CHROMIUM;
+            case 17: return Reference.TITANIUM;
+            case 18: return Reference.LITHIUM;
+            case 19: return Reference.MAGNESIUM;
+            case 20: return Reference.MANGANESE;
+            case 21: return Reference.MOLYBDENUM;
+            case 22: return Reference.CADMIUM;
+            case 23: return Reference.IRIDIUM;
         }
         return null;
     }

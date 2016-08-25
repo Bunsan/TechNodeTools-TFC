@@ -29,9 +29,9 @@ public class ItemOreSmallMod extends ItemOreMod
         this.setWeight(EnumWeight.HEAVY);
         this.setSize(EnumSize.TINY);
         metaNames = new String[]{
-                "Bauxite", "Native Osmium", "Scheelite", "Wolframite", "PlaceHolder1", "PlaceHolder2", "PlaceHolder3",
-                "PlaceHolder4", "PlaceHolder5", "PlaceHolder6", "PlaceHolder7", "PlaceHolder8", "PlaceHolder9",
-                "PlaceHolder10", "PlaceHolder11", "PlaceHolder12"
+                "Bauxite", "Native Osmium", "Scheelite", "Wolframite", "Cobaltite", "Chromite", "Titanite", "Lepidolite",
+                "Magnesite", "Pyrolusite", "Molybdenite", "Greenockite", "Native Iridium",
+                "PlaceHolder1", "PlaceHolder2", "PlaceHolder3"
         };
     }
 
@@ -74,22 +74,22 @@ public class ItemOreSmallMod extends ItemOreMod
         int dam = is.getItemDamage();
         switch(dam)
         {
-            case 0: return Reference.ALUMINUM;
-            case 1: return Reference.OSMIUM;
-            case 2: return Reference.TUNGSTEN;
-            case 3: return Reference.TUNGSTEN;
-            case 4: return null;
-            case 5: return null;
-            case 6: return null;
-            case 7: return null;
-            case 8: return null;
-            case 9: return null;
-            case 10: return null;
-            case 11: return null;
-            case 12: return null;
-            case 13: return null;
-            case 14: return null;
-            case 15: return null;
+            case 0:     return Reference.ALUMINUM;
+            case 1:     return Reference.OSMIUM;
+            case 2:     return Reference.TUNGSTEN;
+            case 3:     return Reference.TUNGSTEN;
+            case 4:     return Reference.COBALT;
+            case 5:     return Reference.CHROMIUM;
+            case 6:     return Reference.TITANIUM;
+            case 7:     return Reference.LITHIUM;
+            case 8:     return Reference.MAGNESIUM;
+            case 9:     return Reference.MANGANESE;
+            case 10:    return Reference.MOLYBDENUM;
+            case 11:    return Reference.CADMIUM;
+            case 12:    return Reference.IRIDIUM;
+            case 13:    return null;
+            case 14:    return null;
+            case 15:    return null;
 
         }
         return null;
@@ -111,22 +111,22 @@ public class ItemOreSmallMod extends ItemOreMod
         int dam = is.getItemDamage();
         switch(dam)
         {
-            case 0: return ISmeltable.EnumTier.TierIV;
-            case 1: return ISmeltable.EnumTier.TierIII;
-            case 2: return ISmeltable.EnumTier.TierIV;
-            case 3: return ISmeltable.EnumTier.TierIV;
-            case 4: return ISmeltable.EnumTier.TierX;
-            case 5: return ISmeltable.EnumTier.TierX;
-            case 6: return ISmeltable.EnumTier.TierX;
-            case 7: return ISmeltable.EnumTier.TierX;
-            case 8: return ISmeltable.EnumTier.TierX;
-            case 9: return ISmeltable.EnumTier.TierX;
-            case 10: return ISmeltable.EnumTier.TierX;
-            case 11: return ISmeltable.EnumTier.TierX;
-            case 12: return ISmeltable.EnumTier.TierX;
-            case 13: return ISmeltable.EnumTier.TierX;
-            case 14: return ISmeltable.EnumTier.TierX;
-            case 15: return ISmeltable.EnumTier.TierX;
+            case 0:     return ISmeltable.EnumTier.TierIV;
+            case 1:     return ISmeltable.EnumTier.TierIII;
+            case 2:     return ISmeltable.EnumTier.TierIV;
+            case 3:     return ISmeltable.EnumTier.TierIV;
+            case 4:     return ISmeltable.EnumTier.TierIII;
+            case 5:     return ISmeltable.EnumTier.TierIV;
+            case 6:     return ISmeltable.EnumTier.TierIV;
+            case 7:     return ISmeltable.EnumTier.TierIII;
+            case 8:     return ISmeltable.EnumTier.TierIII;
+            case 9:     return ISmeltable.EnumTier.TierIII;
+            case 10:    return ISmeltable.EnumTier.TierIV;
+            case 11:    return ISmeltable.EnumTier.TierIV;
+            case 12:    return ISmeltable.EnumTier.TierIV;
+            case 13:    return ISmeltable.EnumTier.TierX;
+            case 14:    return ISmeltable.EnumTier.TierX;
+            case 15:    return ISmeltable.EnumTier.TierX;
         }
         return ISmeltable.EnumTier.TierX;
     }

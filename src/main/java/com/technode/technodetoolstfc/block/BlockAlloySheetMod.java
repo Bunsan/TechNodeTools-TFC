@@ -26,5 +26,10 @@ public class BlockAlloySheetMod extends BlockMetalSheetMod
         ModTextures.sheetElectrum = icons[0];
         ModTextures.sheetCupronickel = icons[1];
         ModTextures.sheetInvar = icons[2];
+        ModTextures.sheetAluminumBrass = icons[3];
+        ModTextures.sheetAlumite = icons[4];
+        ModTextures.sheetManyullyn = icons[5];
+        ModTextures.sheetStainlessSteel = icons[6];
+
     }
 }

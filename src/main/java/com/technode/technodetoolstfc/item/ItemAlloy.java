@@ -58,6 +58,11 @@ public class ItemAlloy extends ItemOreSmall implements ISmeltable
             case 15: return Reference.ELECTRUM;
             case 16: return Reference.CUPRONICKEL;
             case 17: return Reference.INVAR;
+            case 18: return Reference.ALUMINUMBRASS;
+            case 19: return Reference.ALUMITE;
+            case 20: return Reference.MANYULLYN;
+            case 21: return Reference.STAINLESSSTEEL;
+
         }
         return null;
     }

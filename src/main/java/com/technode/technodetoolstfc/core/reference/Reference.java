@@ -72,7 +72,7 @@ public class Reference {
 
     public static final String[] MOD_ORE_METAL = {
             "Bauxite", "Native Osmium", "Scheelite", "Wolframite", "Cobaltite", "Chromite", "Titanite", "Lepidolite",
-            "Magnesite", "Pyrolusite", "Molybdenite", "Greenockite"
+            "Magnesite", "Pyrolusite", "Molybdenite", "Greenockite", "Native Iridium"
     };
 
     public static final String[] MOD_ORE_MINERAL = {

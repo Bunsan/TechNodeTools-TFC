@@ -123,8 +123,8 @@ public class ModItems
         LogHelper.info("Registering Items.");
 
         loadItems();
-        registerItems();
         registerMetals();
+        registerItems();
 
         LogHelper.info("Items Registered.");
     }
@@ -183,28 +183,28 @@ public class ModItems
         aluminumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(0).setUnlocalizedName("Aluminum Sheet")).setMetal("Aluminum", 200);
         osmiumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(1).setUnlocalizedName("Osmium Sheet")).setMetal("Osmium", 200);
         tungstenSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(2).setUnlocalizedName("Tungsten Sheet")).setMetal("Tungsten", 200);
-        cobaltSheet = ((ItemMetalSheetMod)new ItemMetalSheetMod(3).setUnlocalizedName("Cobalt Sheet")).setMetal("Cobalt", 200);
-        chromiumSheet = ((ItemMetalSheetMod)new ItemMetalSheetMod(4).setUnlocalizedName("Chromium Sheet")).setMetal("Chromium", 200);
-        titaniumSheet = ((ItemMetalSheetMod)new ItemMetalSheetMod(5).setUnlocalizedName("Titanium Sheet")).setMetal("Titanium", 200);
-        lithiumSheet = ((ItemMetalSheetMod)new ItemMetalSheetMod(6).setUnlocalizedName("Lithium Sheet")).setMetal("Lithium", 200);
-        magnesiumSheet = ((ItemMetalSheetMod)new ItemMetalSheetMod(7).setUnlocalizedName("Magnesium Sheet")).setMetal("Magnesium", 200);
-        manganeseSheet = ((ItemMetalSheetMod)new ItemMetalSheetMod(8).setUnlocalizedName("Manganese Sheet")).setMetal("Manganese", 200);
-        molybdenumSheet = ((ItemMetalSheetMod)new ItemMetalSheetMod(9).setUnlocalizedName("Molybdenum Sheet")).setMetal("Molybdenum", 200);
-        cadmiumSheet = ((ItemMetalSheetMod)new ItemMetalSheetMod(10).setUnlocalizedName("Cadmium Sheet")).setMetal("Cadmium", 200);
-        iridiumSheet = ((ItemMetalSheetMod)new ItemMetalSheetMod(11).setUnlocalizedName("Iridium Sheet")).setMetal("Iridium", 200);
+        cobaltSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(3).setUnlocalizedName("Cobalt Sheet")).setMetal("Cobalt", 200);
+        chromiumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(4).setUnlocalizedName("Chromium Sheet")).setMetal("Chromium", 200);
+        titaniumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(5).setUnlocalizedName("Titanium Sheet")).setMetal("Titanium", 200);
+        lithiumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(6).setUnlocalizedName("Lithium Sheet")).setMetal("Lithium", 200);
+        magnesiumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(7).setUnlocalizedName("Magnesium Sheet")).setMetal("Magnesium", 200);
+        manganeseSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(8).setUnlocalizedName("Manganese Sheet")).setMetal("Manganese", 200);
+        molybdenumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(9).setUnlocalizedName("Molybdenum Sheet")).setMetal("Molybdenum", 200);
+        cadmiumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(10).setUnlocalizedName("Cadmium Sheet")).setMetal("Cadmium", 200);
+        iridiumSheet = ((ItemMetalSheetMod) new ItemMetalSheetMod(11).setUnlocalizedName("Iridium Sheet")).setMetal("Iridium", 200);
 
         aluminumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(0).setUnlocalizedName("Aluminum Double Sheet")).setMetal("Aluminum", 400);
         osmiumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(1).setUnlocalizedName("Osmium Double Sheet")).setMetal("Osmium", 400);
         tungstenSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(2).setUnlocalizedName("Tungsten Double Sheet")).setMetal("Tungsten", 400);
-        cobaltSheet2x = ((ItemMetalSheet2xMod)new ItemMetalSheet2xMod(3).setUnlocalizedName("Cobalt Double Sheet")).setMetal("Cobalt", 400);
-        chromiumSheet2x = ((ItemMetalSheet2xMod)new ItemMetalSheet2xMod(4).setUnlocalizedName("Chromium Double Sheet")).setMetal("Chromium", 400);
-        titaniumSheet2x = ((ItemMetalSheet2xMod)new ItemMetalSheet2xMod(5).setUnlocalizedName("Titanium Double Sheet")).setMetal("Titanium", 400);
-        lithiumSheet2x = ((ItemMetalSheet2xMod)new ItemMetalSheet2xMod(6).setUnlocalizedName("Lithium Double Sheet")).setMetal("Lithium", 400);
-        magnesiumSheet2x = ((ItemMetalSheet2xMod)new ItemMetalSheet2xMod(7).setUnlocalizedName("Magnesium Double Sheet")).setMetal("Magnesium", 400);
-        manganeseSheet2x = ((ItemMetalSheet2xMod)new ItemMetalSheet2xMod(8).setUnlocalizedName("Manganese Double Sheet")).setMetal("Manganese", 400);
-        molybdenumSheet2x = ((ItemMetalSheet2xMod)new ItemMetalSheet2xMod(9).setUnlocalizedName("Molybdenum Double Sheet")).setMetal("Molybdenum", 400);
-        cadmiumSheet2x = ((ItemMetalSheet2xMod)new ItemMetalSheet2xMod(10).setUnlocalizedName("Cadmium Double Sheet")).setMetal("Cadmium", 400);
-        iridiumSheet2x = ((ItemMetalSheet2xMod)new ItemMetalSheet2xMod(11).setUnlocalizedName("Iridium Double Sheet")).setMetal("Iridium", 400);
+        cobaltSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(3).setUnlocalizedName("Cobalt Double Sheet")).setMetal("Cobalt", 400);
+        chromiumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(4).setUnlocalizedName("Chromium Double Sheet")).setMetal("Chromium", 400);
+        titaniumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(5).setUnlocalizedName("Titanium Double Sheet")).setMetal("Titanium", 400);
+        lithiumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(6).setUnlocalizedName("Lithium Double Sheet")).setMetal("Lithium", 400);
+        magnesiumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(7).setUnlocalizedName("Magnesium Double Sheet")).setMetal("Magnesium", 400);
+        manganeseSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(8).setUnlocalizedName("Manganese Double Sheet")).setMetal("Manganese", 400);
+        molybdenumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(9).setUnlocalizedName("Molybdenum Double Sheet")).setMetal("Molybdenum", 400);
+        cadmiumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(10).setUnlocalizedName("Cadmium Double Sheet")).setMetal("Cadmium", 400);
+        iridiumSheet2x = ((ItemMetalSheet2xMod) new ItemMetalSheet2xMod(11).setUnlocalizedName("Iridium Double Sheet")).setMetal("Iridium", 400);
 
         //ALLOYS
 
@@ -235,18 +235,18 @@ public class ModItems
         electrumSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(0).setUnlocalizedName("Electrum Sheet")).setMetal("Electrum", 200);
         cupronickelSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(1).setUnlocalizedName("Cupronickel Sheet")).setMetal("Cupronickel", 200);
         invarSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(2).setUnlocalizedName("Invar Sheet")).setMetal("Invar", 200);
-        aluminumBrassSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(0).setUnlocalizedName("Aluminum Brass Sheet")).setMetal("Aluminum Brass", 200);
-        alumiteSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(1).setUnlocalizedName("Alumite Sheet")).setMetal("Alumite", 200);
-        manyullynSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(2).setUnlocalizedName("Manyullyn Sheet")).setMetal("Manyullyn", 200);
-        stainlessSteelSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(2).setUnlocalizedName("Stainless Steel Sheet")).setMetal("Stainless Steel", 200);
+        aluminumBrassSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(3).setUnlocalizedName("Aluminum Brass Sheet")).setMetal("Aluminum Brass", 200);
+        alumiteSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(4).setUnlocalizedName("Alumite Sheet")).setMetal("Alumite", 200);
+        manyullynSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(5).setUnlocalizedName("Manyullyn Sheet")).setMetal("Manyullyn", 200);
+        stainlessSteelSheet = ((ItemAlloySheetMod) new ItemAlloySheetMod(6).setUnlocalizedName("Stainless Steel Sheet")).setMetal("Stainless Steel", 200);
 
         electrumSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(0).setUnlocalizedName("Electrum Double Sheet")).setMetal("Electrum", 400);
         cupronickelSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(1).setUnlocalizedName("Cupronickel Double Sheet")).setMetal("Cupronickel", 400);
         invarSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(2).setUnlocalizedName("Invar Double Sheet")).setMetal("Invar", 400);
-        aluminumBrassSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(0).setUnlocalizedName("Aluminum Brass Double Sheet")).setMetal("Aluminum Brass", 400);
-        alumiteSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(1).setUnlocalizedName("Alumite Double Sheet")).setMetal("Alumite", 400);
-        manyullynSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(2).setUnlocalizedName("Manyullyn Double Sheet")).setMetal("Manyullyn", 400);
-        stainlessSteelSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(2).setUnlocalizedName("Stainless Steel Double Sheet")).setMetal("Stainless Steel", 400);
+        aluminumBrassSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(3).setUnlocalizedName("Aluminum Brass Double Sheet")).setMetal("Aluminum Brass", 400);
+        alumiteSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(4).setUnlocalizedName("Alumite Double Sheet")).setMetal("Alumite", 400);
+        manyullynSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(5).setUnlocalizedName("Manyullyn Double Sheet")).setMetal("Manyullyn", 400);
+        stainlessSteelSheet2x = ((ItemAlloySheet2xMod) new ItemAlloySheet2xMod(6).setUnlocalizedName("Stainless Steel Double Sheet")).setMetal("Stainless Steel", 400);
 
     }
 
@@ -275,6 +275,52 @@ public class ModItems
         GameRegistry.registerItem(tungstenUnshaped, tungstenUnshaped.getUnlocalizedName());
         GameRegistry.registerItem(tungstenSheet, tungstenSheet.getUnlocalizedName());
         GameRegistry.registerItem(tungstenSheet2x, tungstenSheet2x.getUnlocalizedName());
+
+        GameRegistry.registerItem(cobaltIngot, cobaltIngot.getUnlocalizedName());
+        GameRegistry.registerItem(cobaltIngot2x, cobaltIngot2x.getUnlocalizedName());
+        GameRegistry.registerItem(cobaltUnshaped, cobaltUnshaped.getUnlocalizedName());
+        GameRegistry.registerItem(cobaltSheet, cobaltSheet.getUnlocalizedName());
+        GameRegistry.registerItem(cobaltSheet2x, cobaltSheet2x.getUnlocalizedName());
+        GameRegistry.registerItem(chromiumIngot, chromiumIngot.getUnlocalizedName());
+        GameRegistry.registerItem(chromiumIngot2x, chromiumIngot2x.getUnlocalizedName());
+        GameRegistry.registerItem(chromiumUnshaped, chromiumUnshaped.getUnlocalizedName());
+        GameRegistry.registerItem(chromiumSheet, chromiumSheet.getUnlocalizedName());
+        GameRegistry.registerItem(chromiumSheet2x, chromiumSheet2x.getUnlocalizedName());
+        GameRegistry.registerItem(titaniumIngot, titaniumIngot.getUnlocalizedName());
+        GameRegistry.registerItem(titaniumIngot2x, titaniumIngot2x.getUnlocalizedName());
+        GameRegistry.registerItem(titaniumUnshaped, titaniumUnshaped.getUnlocalizedName());
+        GameRegistry.registerItem(titaniumSheet, titaniumSheet.getUnlocalizedName());
+        GameRegistry.registerItem(titaniumSheet2x, titaniumSheet2x.getUnlocalizedName());
+        GameRegistry.registerItem(lithiumIngot, lithiumIngot.getUnlocalizedName());
+        GameRegistry.registerItem(lithiumIngot2x, lithiumIngot2x.getUnlocalizedName());
+        GameRegistry.registerItem(lithiumUnshaped, lithiumUnshaped.getUnlocalizedName());
+        GameRegistry.registerItem(lithiumSheet, lithiumSheet.getUnlocalizedName());
+        GameRegistry.registerItem(lithiumSheet2x, lithiumSheet2x.getUnlocalizedName());
+        GameRegistry.registerItem(magnesiumIngot, magnesiumIngot.getUnlocalizedName());
+        GameRegistry.registerItem(magnesiumIngot2x, magnesiumIngot2x.getUnlocalizedName());
+        GameRegistry.registerItem(magnesiumUnshaped, magnesiumUnshaped.getUnlocalizedName());
+        GameRegistry.registerItem(magnesiumSheet, magnesiumSheet.getUnlocalizedName());
+        GameRegistry.registerItem(magnesiumSheet2x, magnesiumSheet2x.getUnlocalizedName());
+        GameRegistry.registerItem(manganeseIngot, manganeseIngot.getUnlocalizedName());
+        GameRegistry.registerItem(manganeseIngot2x, manganeseIngot2x.getUnlocalizedName());
+        GameRegistry.registerItem(manganeseUnshaped, manganeseUnshaped.getUnlocalizedName());
+        GameRegistry.registerItem(manganeseSheet, manganeseSheet.getUnlocalizedName());
+        GameRegistry.registerItem(manganeseSheet2x, manganeseSheet2x.getUnlocalizedName());
+        GameRegistry.registerItem(molybdenumIngot, molybdenumIngot.getUnlocalizedName());
+        GameRegistry.registerItem(molybdenumIngot2x, molybdenumIngot2x.getUnlocalizedName());
+        GameRegistry.registerItem(molybdenumUnshaped, molybdenumUnshaped.getUnlocalizedName());
+        GameRegistry.registerItem(molybdenumSheet, molybdenumSheet.getUnlocalizedName());
+        GameRegistry.registerItem(molybdenumSheet2x, molybdenumSheet2x.getUnlocalizedName());
+        GameRegistry.registerItem(cadmiumIngot, cadmiumIngot.getUnlocalizedName());
+        GameRegistry.registerItem(cadmiumIngot2x, cadmiumIngot2x.getUnlocalizedName());
+        GameRegistry.registerItem(cadmiumUnshaped, cadmiumUnshaped.getUnlocalizedName());
+        GameRegistry.registerItem(cadmiumSheet, cadmiumSheet.getUnlocalizedName());
+        GameRegistry.registerItem(cadmiumSheet2x, cadmiumSheet2x.getUnlocalizedName());
+        GameRegistry.registerItem(iridiumIngot, iridiumIngot.getUnlocalizedName());
+        GameRegistry.registerItem(iridiumIngot2x, iridiumIngot2x.getUnlocalizedName());
+        GameRegistry.registerItem(iridiumUnshaped, iridiumUnshaped.getUnlocalizedName());
+        GameRegistry.registerItem(iridiumSheet, iridiumSheet.getUnlocalizedName());
+        GameRegistry.registerItem(iridiumSheet2x, iridiumSheet2x.getUnlocalizedName());
 
         GameRegistry.registerItem(electrumIngot, electrumIngot.getUnlocalizedName());
         GameRegistry.registerItem(electrumIngot2x, electrumIngot2x.getUnlocalizedName());
@@ -330,6 +376,11 @@ public class ModItems
         Reference.ELECTRUM = new Metal("Electrum", ModItems.electrumUnshaped, ModItems.electrumIngot);
         Reference.CUPRONICKEL = new Metal("Cupronickel", ModItems.cupronickelUnshaped, ModItems.cupronickelIngot);
         Reference.INVAR = new Metal("Invar", ModItems.invarUnshaped, ModItems.invarIngot);
+        Reference.ALUMINUMBRASS = new Metal("Aluminum Brass", ModItems.aluminumBrassUnshaped, ModItems.aluminumBrassIngot);
+        Reference.ALUMITE = new Metal("Alumite", ModItems.alumiteUnshaped, ModItems.alumiteIngot);
+        Reference.MANYULLYN = new Metal("Manyullyn", ModItems.manyullynUnshaped, ModItems.manyullynIngot);
+        Reference.STAINLESSSTEEL = new Metal("Stainless Steel", ModItems.stainlessSteelUnshaped, ModItems.stainlessSteelIngot);
+
 
         MetalRegistry.instance.addMetal(Reference.ALUMINUM, Alloy.EnumTier.TierIV);
         MetalRegistry.instance.addMetal(Reference.OSMIUM, Alloy.EnumTier.TierIV);
@@ -347,7 +398,7 @@ public class ModItems
         MetalRegistry.instance.addMetal(Reference.ELECTRUM, Alloy.EnumTier.TierI);
         MetalRegistry.instance.addMetal(Reference.CUPRONICKEL, Alloy.EnumTier.TierI);
         MetalRegistry.instance.addMetal(Reference.INVAR, Alloy.EnumTier.TierIV);
-        MetalRegistry.instance.addMetal(Reference.ALUMINUMBRASS, Alloy.EnumTier.TierI);
+        MetalRegistry.instance.addMetal(Reference.ALUMINUMBRASS, Alloy.EnumTier.TierIII);
         MetalRegistry.instance.addMetal(Reference.ALUMITE, Alloy.EnumTier.TierIII);
         MetalRegistry.instance.addMetal(Reference.MANYULLYN, Alloy.EnumTier.TierIV);
         MetalRegistry.instance.addMetal(Reference.STAINLESSSTEEL, Alloy.EnumTier.TierIV);
@@ -372,6 +423,7 @@ public class ModItems
             invar.addIngred(Global.NICKEL, 29.99f, 42.01f);
             AlloyManager.INSTANCE.addAlloy(invar);
         }
+
         if (ModOptions.enableAluminumBrass) {
             Alloy aluminumBrass = new Alloy(Reference.ALUMINUMBRASS, Alloy.EnumTier.TierI);
             aluminumBrass.addIngred(Reference.ALUMINUM, 69.99f, 80.01f);

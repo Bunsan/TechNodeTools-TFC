@@ -29,7 +29,8 @@ public class Reference {
 
     public static final String[] METALS_ALL = {
             "Bismuth", "Copper", "Gold", "Wrought Iron", "Lead", "Nickel", "Pig Iron", "Platinum",
-            "Silver", "Steel", "Tin", "Zinc", "Aluminum", "Osmium", "Tungsten"
+            "Silver", "Steel", "Tin", "Zinc", "Aluminum", "Osmium", "Tungsten", "Cobalt", "Chromium", "Titanium",
+            "Lithium", "Magnesium", "Manganese", "Molybdenum", "Cadmium", "Iridium"
     };
 
     public static final String[] METALS = {
@@ -41,12 +42,13 @@ public class Reference {
             "Bismuth Bronze", "Black Bronze", "Black Steel", "Blue Steel", "Brass", "Bronze",
             "High Carbon Black Steel", "High Carbon Blue Steel", "High Carbon Red Steel",
             "Red Steel", "Rose Gold", "Sterling Silver", "Weak Steel", "Weak Blue Steel", "Weak Red Steel",
-            "Electrum", "Cupronickel", "Invar"
+            "Electrum", "Cupronickel", "Invar", "Aluminum Brass", "Alumite", "Manyullyn", "Stainless Steel"
     };
 
     public static final String[] ALLOYS_USABLE = {
             "Bismuth Bronze", "Black Bronze", "Black Steel", "Blue Steel", "Brass", "Bronze",
-            "Red Steel", "Rose Gold", "Sterling Silver", "Electrum", "Cupronickel", "Invar"
+            "Red Steel", "Rose Gold", "Sterling Silver", "Electrum", "Cupronickel", "Invar", "Aluminum Brass",
+            "Alumite", "Manyullyn", "Stainless Steel"
     };
 
     public static final String[] INTERMEDIATE_ALLOYS = {
@@ -55,14 +57,13 @@ public class Reference {
     };
 
     public static final String[] MOD_METALS = {
-            "Aluminum", "Osmium", "Tungsten"
-            //"Cobalt", "Titanium", "Chromium", "Lithium", "Manganese", "Molybdenum",
-            //"Iridium", "Cadmium", "Vanadium", "Antimony",
+            "Aluminum", "Osmium", "Tungsten", "Cobalt", "Chromium", "Titanium", "Lithium", "Magnesium", "Manganese",
+            "Molybdenum", "Cadmium", "Iridium"
+            //"Vanadium", "Antimony",
     };
 
      public static final String[] MOD_ALLOYS = {
-             "Electrum", "Cupronickel", "Invar",
-             //"Aluminum Brass", "Alumite",
+             "Electrum", "Cupronickel", "Invar", "Aluminum Brass", "Alumite", "Manyullyn", "Stainless Steel"
     };
 
     public static final String[] MOD_MINERALS = {
@@ -70,7 +71,8 @@ public class Reference {
     };
 
     public static final String[] MOD_ORE_METAL = {
-            "Bauxite", "Native Osmium", "Scheelite", "Wolframite"
+            "Bauxite", "Native Osmium", "Scheelite", "Wolframite", "Cobaltite", "Chromite", "Titanite", "Lepidolite",
+            "Magnesite", "Pyrolusite", "Molybdenite", "Greenockite", "Native Iridium"
     };
 
     public static final String[] MOD_ORE_MINERAL = {
@@ -80,21 +82,26 @@ public class Reference {
     public static final Item[] MOD_INGOTS = {
             ModItems.aluminumIngot,ModItems.osmiumIngot,ModItems.tungstenIngot,ModItems.electrumIngot,ModItems.cupronickelIngot,ModItems.invarIngot};
 
-    public static final String[] METALS_ALLOYS_USABLE = {
-            "Bismuth", "Copper", "Gold", "Wrought Iron", "Lead", "Nickel", "Pig Iron", "Platinum",
-            "Silver", "Steel", "Tin", "Zinc", "Aluminum", "Osmium", "Tungsten", "Bismuth Bronze",
-            "Black Bronze", "Black Steel", "Blue Steel", "Brass", "Bronze", "Red Steel", "Rose Gold",
-            "Sterling Silver", "Electrum", "Cupronickel", "Invar"
-    };
-
-
 
     public static Metal ALUMINUM;
     public static Metal OSMIUM;
     public static Metal TUNGSTEN;
+    public static Metal COBALT;
+    public static Metal CHROMIUM;
+    public static Metal TITANIUM;
+    public static Metal LITHIUM;
+    public static Metal MAGNESIUM;
+    public static Metal MANGANESE;
+    public static Metal MOLYBDENUM;
+    public static Metal CADMIUM;
+    public static Metal IRIDIUM;
     public static Metal ELECTRUM;
     public static Metal CUPRONICKEL;
     public static Metal INVAR;
+    public static Metal ALUMINUMBRASS;
+    public static Metal ALUMITE;
+    public static Metal MANYULLYN;
+    public static Metal STAINLESSSTEEL;
     public static Metal NULL;
 }
 

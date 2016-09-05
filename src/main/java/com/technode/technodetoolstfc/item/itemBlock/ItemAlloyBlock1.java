@@ -36,6 +36,11 @@ public class ItemAlloyBlock1 extends ItemAlloyBlock
             case 9: return Reference.ELECTRUM;
             case 10: return Reference.CUPRONICKEL;
             case 11: return Reference.INVAR;
+            case 12: return Reference.ALUMINUMBRASS;
+            case 13: return Reference.ALUMITE;
+            case 14: return Reference.MANYULLYN;
+            case 15: return Reference.STAINLESSSTEEL;
+
         }
         return null;
     }

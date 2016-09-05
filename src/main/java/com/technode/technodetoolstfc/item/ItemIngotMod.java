@@ -35,20 +35,6 @@ public class ItemIngotMod extends ItemIngot
         metalAmount = 100;
     }
 
-    public ItemIngotMod(boolean canSmelt)
-    {
-        this();
-        smeltable = canSmelt;
-    }
-
-    /*public ItemTerra setMetal(String m, int amt)
-    {
-        metal = m;
-        metalAmount = (short) amt;
-        return this;
-    }
-    */
-
     @Override
     public void registerIcons(IIconRegister registerer)
     {
@@ -168,16 +154,6 @@ public class ItemIngotMod extends ItemIngot
         }
         return true;
     }
-
-    /*public boolean isPlaceable(ItemStack is)
-    {
-        Item id = is.getItem();
-
-        return !(id == TFCItems.weakSteelIngot || id == TFCItems.highCarbonSteelIngot || id == TFCItems.highCarbonBlackSteelIngot ||
-                id == TFCItems.weakRedSteelIngot || id == TFCItems.weakBlueSteelIngot ||
-                id == TFCItems.highCarbonRedSteelIngot || id == TFCItems.highCarbonBlueSteelIngot);
-    }
-    */
 
     @Override
     public boolean onItemUse(ItemStack itemstack, EntityPlayer entityplayer, World world, int x, int y, int z, int side, float hitX, float hitY, float hitZ)

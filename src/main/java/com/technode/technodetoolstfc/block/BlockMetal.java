@@ -1,5 +1,6 @@
 package com.technode.technodetoolstfc.block;
 
+import com.technode.technodetoolstfc.core.ModBlocks;
 import com.technode.technodetoolstfc.core.reference.Reference;
 import com.technode.technodetoolstfc.core.ModDetails;
 import com.technode.technodetoolstfc.core.reference.*;
@@ -32,8 +33,8 @@ public class BlockMetal extends BlockTerra
     {
         super(Material.iron);
         this.setCreativeTab(CreativeTab.TECHNODE_TAB);
-        names = new String[Reference.METALS_ALL.length];
-        System.arraycopy(Reference.METALS_ALL, 0, names, 0, Reference.METALS_ALL.length);
+        names = new String[16];
+        System.arraycopy(Reference.METALS_ALL, 0, names, 0, 16);
         icons = new IIcon[names.length];
     }
 
@@ -58,7 +59,11 @@ public class BlockMetal extends BlockTerra
     @Override
     public IIcon getIcon(int side, int meta)
     {
-        return icons[meta];
+        if(meta < 0)
+            return icons[0];
+        if(meta<icons.length)
+            return icons[meta];
+        return ModBlocks.metalBlock2.getIcon(side, meta-16);
     }
 
     @Override

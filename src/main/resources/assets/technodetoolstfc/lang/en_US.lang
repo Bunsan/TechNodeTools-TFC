@@ -37,6 +37,15 @@ tile.Ore.Bauxite.name=Bauxite
 tile.Ore.Native Osmium.name=Native Osmium
 tile.Ore.Scheelite.name=Scheelite
 tile.Ore.Wolframite.name=Wolframite
+tile.Ore.Cobaltite.name=Cobaltite
+tile.Ore.Chromite.name=Chromite
+tile.Ore.Titanite.name=Titanite
+tile.Ore.Lepidolite.name=Lepidolite
+tile.Ore.Magnesite.name=Magnesite
+tile.Ore.Pyrolusite.name=Pyrolusite
+tile.Ore.Molybdenite.name=Molybdenite
+tile.Ore.Greenockite.name=Greenockite
+tile.Ore.Native Iridium.name=Native Iridium
 
 tile.Ore.Apatite.name=Apatite
 tile.Ore.Scapolite.name=Scapolite
@@ -57,6 +66,16 @@ tile.MetalBlock.Zinc.name=Zinc Block
 tile.MetalBlock.Aluminum.name=Aluminum Block
 tile.MetalBlock.Osmium.name=Osmium Block
 tile.MetalBlock.Tungsten.name=Tungsten Block
+tile.MetalBlock.Tungsten.name=Tungsten Block
+tile.MetalBlock.Cobalt.name=Cobalt Block
+tile.MetalBlock.Chromium.name=Chromium Block
+tile.MetalBlock.Titanium.name=Titanium Block
+tile.MetalBlock.Lithium.name=Lithium Block
+tile.MetalBlock.Magnesium.name=Magnesium Block
+tile.MetalBlock.Manganese.name=Manganese Block
+tile.MetalBlock.Molybdenum.name=Molybdenum Block
+tile.MetalBlock.Cadmium.name=Cadmium Block
+tile.MetalBlock.Iridium.name=Iridium Block
 
 tile.AlloyBlock.Bismuth Bronze.name=Bismuth Bronze Block
 tile.AlloyBlock.Black Bronze.name=Black Bronze Block
@@ -70,6 +89,10 @@ tile.AlloyBlock.Sterling Silver.name=Sterling Silver Block
 tile.AlloyBlock.Electrum.name=Electrum Block
 tile.AlloyBlock.Cupronickel.name=Cupronickel Block
 tile.AlloyBlock.Invar.name=Invar Block
+tile.AlloyBlock.Aluminum Brass.name=Aluminum Brass Block
+tile.AlloyBlock.Alumite.name=Alumite Block
+tile.AlloyBlock.Manyullyn.name=Manyullyn Block
+tile.AlloyBlock.Stainless Steel.name=Stainless Steel Block
 
 
 #== Nugget ==
@@ -89,6 +112,15 @@ item.MetalNugget.Zinc.name=Zinc Nugget
 item.MetalNugget.Aluminum.name=Aluminum Nugget
 item.MetalNugget.Osmium.name=Osmium Nugget
 item.MetalNugget.Tungsten.name=Tungsten Nugget
+item.MetalNugget.Cobalt.name=Cobalt Nugget
+item.MetalNugget.Chromium.name=Chromium Nugget
+item.MetalNugget.Titanium.name=Titanium Nugget
+item.MetalNugget.Lithium.name=Lithium Nugget
+item.MetalNugget.Magnesium.name=Magnesium Nugget
+item.MetalNugget.Manganese.name=Manganese Nugget
+item.MetalNugget.Molybdenum.name=Molybdenum Nugget
+item.MetalNugget.Cadmium.name=Cadmium Nugget
+item.MetalNugget.Iridium.name=Iridium Nugget
 
 item.AlloyNugget.Bismuth Bronze.name=Bismuth Bronze Nugget
 item.AlloyNugget.Black Bronze.name=Black Bronze Nugget
@@ -108,6 +140,10 @@ item.AlloyNugget.Weak Red Steel.name=Weak Red Steel Nugget
 item.AlloyNugget.Electrum.name=Electrum Nugget
 item.AlloyNugget.Cupronickel.name=Cupronickel Nugget
 item.AlloyNugget.Invar.name=Invar Nugget
+item.AlloyNugget.Aluminum Brass.name=Aluminum Brass Nugget
+item.AlloyNugget.Alumite.name=Alumite Nugget
+item.AlloyNugget.Manyullyn.name=Manyullyn Nugget
+item.AlloyNugget.Stainless Steel.name=Stainless Steel Nugget
 
 #== Dust ==
 
@@ -126,6 +162,15 @@ item.MetalDust.Zinc.name=Zinc Dust
 item.MetalDust.Aluminum.name=Aluminum Dust
 item.MetalDust.Osmium.name=Osmium Dust
 item.MetalDust.Tungsten.name=Tungsten Dust
+item.MetalDust.Cobalt.name=Cobalt Dust
+item.MetalDust.Chromium.name=Chromium Dust
+item.MetalDust.Titanium.name=Titanium Dust
+item.MetalDust.Lithium.name=Lithium Dust
+item.MetalDust.Magnesium.name=Magnesium Dust
+item.MetalDust.Manganese.name=Manganese Dust
+item.MetalDust.Molybdenum.name=Molybdenum Dust
+item.MetalDust.Cadmium.name=Cadmium Dust
+item.MetalDust.Iridium.name=Iridium Dust
 
 item.AlloyDust.Bismuth Bronze.name=Bismuth Bronze Dust
 item.AlloyDust.Black Bronze.name=Black Bronze Dust
@@ -145,54 +190,140 @@ item.AlloyDust.Weak Red Steel.name=Weak Red Steel Dust
 item.AlloyDust.Electrum.name=Electrum Dust
 item.AlloyDust.Cupronickel.name=Cupronickel Dust
 item.AlloyDust.Invar.name=Invar Dust
+item.AlloyNugget.Aluminum Brass.name=Aluminum Brass Dust
+item.AlloyNugget.Alumite.name=Alumite Dust
+item.AlloyNugget.Manyullyn.name=Manyullyn Dust
+item.AlloyNugget.Stainless Steel.name=Stainless Steel Dust
 
 #== Ingots ==
 item.Aluminum Unshaped.name=Aluminum Unshaped
 item.Osmium Unshaped.name=Osmium Unshaped
 item.Tungsten Unshaped.name=Tungsten Unshaped
+item.Cobalt Unshaped.name=Cobalt Unshaped
+item.Chromium Unshaped.name=Chromium Unshaped
+item.Titanium Unshaped.name=Titanium Unshaped
+item.Lithium Unshaped.name=Lithium Unshaped
+item.Magnesium Unshaped.name=Magnesium Unshaped
+item.Manganese Unshaped.name=Manganese Unshaped
+item.Molybdenum Unshaped.name=Molybdenum Unshaped
+item.Cadmium Unshaped.name=Cadmium Unshaped
+item.Iridium Unshaped.name=Iridium Unshaped
 
 item.Electrum Unshaped.name=Electrum Unshaped
 item.Cupronickel Unshaped.name=Cupronickel Unshaped
 item.Invar Unshaped.name=Invar Unshaped
+item.Aluminum Brass Unshaped.name=Aluminum Brass Unshaped
+item.Alumite Unshaped.name=Alumite Unshaped
+item.Manyullyn Unshaped.name=Manyullyn Unshaped
+item.Stainless Steel Unshaped.name=Stainless Steel Unshaped
 
 item.Aluminum Ingot.name=Aluminum Ingot
 item.Osmium Ingot.name=Osmium Ingot
 item.Tungsten Ingot.name=Tungsten Ingot
+item.Cobalt Ingot.name=Cobalt Ingot
+item.Chromium Ingot.name=Chromium Ingot
+item.Titanium Ingot.name=Titanium Ingot
+item.Lithium Ingot.name=Lithium Ingot
+item.Magnesium Ingot.name=Magnesium Ingot
+item.Manganese Ingot.name=Manganese Ingot
+item.Molybdenum Ingot.name=Molybdenum Ingot
+item.Cadmium Ingot.name=Cadmium Ingot
+item.Iridium Ingot.name=Iridium Ingot
 
 item.Electrum Ingot.name=Electrum Ingot
 item.Cupronickel Ingot.name=Cupronickel Ingot
 item.Invar Ingot.name=Invar Ingot
+item.Aluminum Brass Ingot.name=Aluminum Brass Ingot
+item.Alumite Ingot.name=Alumite Ingot
+item.Manyullyn Ingot.name=Manyullyn Ingot
+item.Stainless Steel Ingot.name=Stainless Steel Ingot
 
 item.Aluminum Double Ingot.name=Aluminum Double Ingot
 item.Osmium Double Ingot.name=Osmium Double Ingot
 item.Tungsten Double Ingot.name=Tungsten Double Ingot
+item.Cobalt Double Ingot.name=Cobalt Double Ingot
+item.Chromium Double Ingot.name=Chromium Double Ingot
+item.Titanium Double Ingot.name=Titanium Double Ingot
+item.Lithium Double Ingot.name=Lithium Double Ingot
+item.Magnesium Double Ingot.name=Magnesium Double Ingot
+item.Manganese Double Ingot.name=Manganese Double Ingot
+item.Molybdenum Double Ingot.name=Molybdenum Double Ingot
+item.Cadmium Double Ingot.name=Cadmium Double Ingot
+item.Iridium Double Ingot.name=Iridium Double Ingot
 
 item.Electrum Double Ingot.name=Electrum Double Ingot
 item.Cupronickel Double Ingot.name=Cupronickel Double Ingot
 item.Invar Double Ingot.name=Invar Double Ingot
+item.Aluminum Brass Ingot.name=Aluminum Brass Double Ingot
+item.Alumite Ingot.name=Alumite Double Ingot
+item.Manyullyn Ingot.name=Manyullyn Double Ingot
+item.Stainless Steel Ingot.name=Stainless Steel Double Ingot
 
 #== Sheets ==
 item.Aluminum Sheet.name=Aluminum Sheet
 item.Osmium Sheet.name=Osmium Sheet
 item.Tungsten Sheet.name=Tungsten Sheet
+item.Cobalt Sheet.name=Cobalt Sheet
+item.Chromium Sheet.name=Chromium Sheet
+item.Titanium Sheet.name=Titanium Sheet
+item.Lithium Sheet.name=Lithium Sheet
+item.Magnesium Sheet.name=Magnesium Sheet
+item.Manganese Sheet.name=Manganese Sheet
+item.Molybdenum Sheet.name=Molybdenum Sheet
+item.Cadmium Sheet.name=Cadmium Sheet
+item.Iridium Sheet.name=Iridium Sheet
 
 item.Electrum Sheet.name=Electrum Sheet
 item.Cupronickel Sheet.name=Cupronickel Sheet
 item.Invar Sheet.name=Invar Sheet
+item.Aluminum Brass Sheet.name=Aluminum Brass Sheet
+item.Alumite Sheet.name=Alumite Sheet
+item.Manyullyn Sheet.name=Manyullyn Sheet
+item.Stainless Steel Sheet.name=Stainless Steel Sheet
 
 item.Aluminum Double Sheet.name=Aluminum Double Sheet
 item.Osmium Double Sheet.name=Osmium Double Sheet
 item.Tungsten Double Sheet.name=Tungsten Double Sheet
+item.Cobalt Double Sheet.name=Cobalt Double Sheet
+item.Chromium Double Sheet.name=Chromium Double Sheet
+item.Titanium Double Sheet.name=Titanium Double Sheet
+item.Lithium Double Sheet.name=Lithium Double Sheet
+item.Magnesium Double Sheet.name=Magnesium Double Sheet
+item.Manganese Double Sheet.name=Manganese Double Sheet
+item.Molybdenum Double Sheet.name=Molybdenum Double Sheet
+item.Cadmium Double Sheet.name=Cadmium Double Sheet
+item.Iridium Double Sheet.name=Iridium Double Sheet
 
 item.Electrum Double Sheet.name=Electrum Double Sheet
 item.Cupronickel Double Sheet.name=Cupronickel Double Sheet
 item.Invar Double Sheet.name=Invar Double Sheet
+item.Aluminum Brass Sheet.name=Aluminum Brass Double Sheet
+item.Alumite Sheet.name=Alumite Double Sheet
+item.Manyullyn Sheet.name=Manyullyn Double Sheet
+item.Stainless Steel Sheet.name=Stainless Steel Double Sheet
 
 #== Crucible ==
 
 gui.metal.Electrum=Electrum
 gui.metal.Cupronickel=Cupronickel
 gui.metal.Invar=Invar
+gui.metal.Aluminum Brass=Aluminum Brass
+gui.metal.Alumite=Alumite
+gui.metal.Manyullyn=Manyullyn
+gui.metal.Stainless Steel=Stainless Steel
+
+gui.metal.Aluminum=Aluminum
+gui.metal.Osmium=Osmium
+gui.metal.Tungsten=Tungsten
+gui.metal.Cobalt=Cobalt
+gui.metal.Chromium=Chromium
+gui.metal.Titanium=Titanium
+gui.metal.Lithium=Lithium
+gui.metal.Magnesium=Magnesium
+gui.metal.Manganese=Manganese
+gui.metal.Molybdenum=Molybdenum
+gui.metal.Cadmium=Cadmium
+gui.metal.Iridium=Iridium
 
 #== Anvil Plans ==
 

@@ -2,6 +2,7 @@ package com.technode.technodetoolstfc.core.handler;
 
 import com.technode.technodetoolstfc.core.ModItems;
 import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.PlayerEvent;
 
@@ -33,7 +34,7 @@ public class CraftingHandler
 
         if (iinventory != null) {
             // Tool Damaging
-            if (item == ModItems.smallMetalChunk) {
+            if (item == ModItems.smallMetalChunk || item == ModItems.smallAlloyChunk) {
                 List<ItemStack> chisels = OreDictionary.getOres("itemChisel", false);
                 handleItem(player, iinventory, chisels);
             }

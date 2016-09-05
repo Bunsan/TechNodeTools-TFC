@@ -33,5 +33,15 @@ public class BlockMetalSheetMod extends BlockMetalSheet
         ModTextures.sheetAluminum = icons[0];
         ModTextures.sheetOsmium = icons[1];
         ModTextures.sheetTungsten = icons[2];
+        ModTextures.sheetCobalt = icons[3];
+        ModTextures.sheetChromium = icons[4];
+        ModTextures.sheetTitanium = icons[5];
+        ModTextures.sheetLithium = icons[6];
+        ModTextures.sheetMagnesium = icons[7];
+        ModTextures.sheetManganese = icons[8];
+        ModTextures.sheetMolybdenum = icons[9];
+        ModTextures.sheetCadmium = icons[10];
+        ModTextures.sheetIridium = icons[11];
+
     }
 }

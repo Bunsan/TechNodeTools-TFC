@@ -31,9 +31,18 @@ public class ItemHeatReferences
         HeatRaw steelRaw = new HeatRaw(0.35, 1540);//sh = 0.63F; boil = 3500; melt = 1540;
         HeatRaw tinRaw = new HeatRaw(0.14, 230);
         HeatRaw zincRaw = new HeatRaw(0.21, 420);//sh = 0.66F; boil = 907; melt = 420;
-        HeatRaw osmiumRaw = new HeatRaw(0.35, 2166);
+        HeatRaw osmiumRaw = new HeatRaw(0.35, 2000);
         HeatRaw aluminumRaw = new HeatRaw(0.35, 980);
-        HeatRaw tungstenRaw = new HeatRaw(0.35, 2166);
+        HeatRaw tungstenRaw = new HeatRaw(0.35, 2000);
+        HeatRaw cobaltRaw = new HeatRaw(0.35, 1000);
+        HeatRaw chromiumRaw = new HeatRaw(0.35, 1000);
+        HeatRaw titaniumRaw = new HeatRaw(0.35, 1000);
+        HeatRaw lithiumRaw = new HeatRaw(0.35, 1000);
+        HeatRaw magnesiumRaw = new HeatRaw(0.35, 1000);
+        HeatRaw manganeseRaw = new HeatRaw(0.35, 1000);
+        HeatRaw molybdenumRaw = new HeatRaw(0.35, 1000);
+        HeatRaw cadmiumRaw = new HeatRaw(0.35, 1000);
+        HeatRaw iridiumRaw = new HeatRaw(0.35, 1000);
 
         HeatRaw bismuthBronzeRaw = new HeatRaw(0.35, 985);
         HeatRaw blackBronzeRaw = new HeatRaw(0.35, 1070);
@@ -53,6 +62,10 @@ public class ItemHeatReferences
         HeatRaw electrumRaw = new HeatRaw(0.55, 1060);
         HeatRaw cupronickelRaw = new HeatRaw(0.48, 1453);
         HeatRaw invarRaw = new HeatRaw(0.48, 1535);
+        HeatRaw aluminumBrassRaw = new HeatRaw(0.48, 1535);
+        HeatRaw alumiteRaw = new HeatRaw(0.48, 1535);
+        HeatRaw manyullynRaw = new HeatRaw(0.48, 1535);
+        HeatRaw stainlessSteelRaw = new HeatRaw(0.48, 1535);
 
 
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,0), osmiumRaw,new ItemStack(ModItems.osmiumUnshaped,1)));
@@ -68,10 +81,47 @@ public class ItemHeatReferences
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,10), tungstenRaw,new ItemStack(ModItems.tungstenUnshaped,1)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,11), tungstenRaw,new ItemStack(ModItems.tungstenUnshaped,1)));
 
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,12), cobaltRaw,new ItemStack(ModItems.cobaltUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,13), cobaltRaw,new ItemStack(ModItems.cobaltUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,14), cobaltRaw,new ItemStack(ModItems.cobaltUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,15), chromiumRaw,new ItemStack(ModItems.chromiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,16), chromiumRaw,new ItemStack(ModItems.chromiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,17), chromiumRaw,new ItemStack(ModItems.chromiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,18), titaniumRaw,new ItemStack(ModItems.titaniumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,19), titaniumRaw,new ItemStack(ModItems.titaniumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,20), titaniumRaw,new ItemStack(ModItems.titaniumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,21), lithiumRaw,new ItemStack(ModItems.lithiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,22), lithiumRaw,new ItemStack(ModItems.lithiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,23), lithiumRaw,new ItemStack(ModItems.lithiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,24), magnesiumRaw,new ItemStack(ModItems.magnesiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,25), magnesiumRaw,new ItemStack(ModItems.magnesiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,26), magnesiumRaw,new ItemStack(ModItems.magnesiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,27), manganeseRaw,new ItemStack(ModItems.manganeseUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,28), manganeseRaw,new ItemStack(ModItems.manganeseUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,29), manganeseRaw,new ItemStack(ModItems.manganeseUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,30), molybdenumRaw,new ItemStack(ModItems.molybdenumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,31), molybdenumRaw,new ItemStack(ModItems.molybdenumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,32), molybdenumRaw,new ItemStack(ModItems.molybdenumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,33), cadmiumRaw,new ItemStack(ModItems.cadmiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,34), cadmiumRaw,new ItemStack(ModItems.cadmiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,35), cadmiumRaw,new ItemStack(ModItems.cadmiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,36), iridiumRaw,new ItemStack(ModItems.iridiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,37), iridiumRaw,new ItemStack(ModItems.iridiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,38), iridiumRaw,new ItemStack(ModItems.iridiumUnshaped,1)));
+
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,0), osmiumRaw,new ItemStack(ModItems.osmiumUnshaped,1)));
-        //manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,3), aluminumRaw,new ItemStack(ModItems.aluminumUnshaped,1)));
-        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,6), tungstenRaw,new ItemStack(ModItems.tungstenUnshaped,1)));
-        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,9), tungstenRaw,new ItemStack(ModItems.tungstenUnshaped,1)));
+        //manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,1), aluminumRaw,new ItemStack(ModItems.aluminumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,2), tungstenRaw,new ItemStack(ModItems.tungstenUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,3), tungstenRaw,new ItemStack(ModItems.tungstenUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,4), cobaltRaw,new ItemStack(ModItems.cobaltUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,5), chromiumRaw,new ItemStack(ModItems.chromiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,6), titaniumRaw,new ItemStack(ModItems.titaniumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,7), lithiumRaw,new ItemStack(ModItems.lithiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,8), magnesiumRaw,new ItemStack(ModItems.magnesiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,9), manganeseRaw,new ItemStack(ModItems.manganeseUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,10), molybdenumRaw,new ItemStack(ModItems.molybdenumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,11), cadmiumRaw,new ItemStack(ModItems.cadmiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallOreChunk,1,12), iridiumRaw,new ItemStack(ModItems.iridiumUnshaped,1)));
 
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,0), bismuthRaw,new ItemStack(TFCItems.bismuthUnshaped,1)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,1), copperRaw,new ItemStack(TFCItems.copperUnshaped,1)));
@@ -88,6 +138,15 @@ public class ItemHeatReferences
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,12), aluminumRaw,new ItemStack(ModItems.aluminumUnshaped,1)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,13), osmiumRaw,new ItemStack(ModItems.osmiumUnshaped,1)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,14), tungstenRaw,new ItemStack(ModItems.tungstenUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,15), cobaltRaw,new ItemStack(ModItems.cobaltUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,16), chromiumRaw,new ItemStack(ModItems.chromiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,17), titaniumRaw,new ItemStack(ModItems.titaniumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,18), lithiumRaw,new ItemStack(ModItems.lithiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,19), magnesiumRaw,new ItemStack(ModItems.magnesiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,20), manganeseRaw,new ItemStack(ModItems.manganeseUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,21), molybdenumRaw,new ItemStack(ModItems.molybdenumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,22), cadmiumRaw,new ItemStack(ModItems.cadmiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallMetalChunk,1,23), iridiumRaw,new ItemStack(ModItems.iridiumUnshaped,1)));
 
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallAlloyChunk,1,0), bismuthBronzeRaw,new ItemStack(TFCItems.bismuthBronzeUnshaped,1)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallAlloyChunk,1,1), blackBronzeRaw,new ItemStack(TFCItems.blackBronzeUnshaped,1)));
@@ -107,6 +166,10 @@ public class ItemHeatReferences
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallAlloyChunk,1,15), electrumRaw,new ItemStack(ModItems.electrumUnshaped,1)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallAlloyChunk,1,16), cupronickelRaw,new ItemStack(ModItems.cupronickelUnshaped,1)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallAlloyChunk,1,17), invarRaw,new ItemStack(ModItems.invarUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallAlloyChunk,1,18), aluminumBrassRaw,new ItemStack(ModItems.aluminumBrassUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallAlloyChunk,1,19), alumiteRaw,new ItemStack(ModItems.alumiteUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallAlloyChunk,1,20), manyullynRaw,new ItemStack(ModItems.manyullynUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.smallAlloyChunk,1,21), stainlessSteelRaw,new ItemStack(ModItems.stainlessSteelUnshaped,1)));
 
         manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,0), bismuthRaw,new ItemStack(TFCItems.bismuthUnshaped,8,0)));
         manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,1), copperRaw,new ItemStack(TFCItems.copperUnshaped,8,0)));
@@ -123,6 +186,15 @@ public class ItemHeatReferences
         manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,12), aluminumRaw,new ItemStack(ModItems.aluminumUnshaped,8,0)));
         manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,13), osmiumRaw,new ItemStack(ModItems.osmiumUnshaped,8,0)));
         manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,14), tungstenRaw,new ItemStack(ModItems.tungstenUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,15), cobaltRaw,new ItemStack(ModItems.cobaltUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,16), chromiumRaw,new ItemStack(ModItems.chromiumUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,17), titaniumRaw,new ItemStack(ModItems.titaniumUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,18), lithiumRaw,new ItemStack(ModItems.lithiumUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,19), magnesiumRaw,new ItemStack(ModItems.magnesiumUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,20), manganeseRaw,new ItemStack(ModItems.manganeseUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,21), molybdenumRaw,new ItemStack(ModItems.molybdenumUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,22), cadmiumRaw,new ItemStack(ModItems.cadmiumUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.metalBlock,1,23), iridiumRaw,new ItemStack(ModItems.iridiumUnshaped,8,0)));
 
         manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.alloyBlock,1,0), bismuthBronzeRaw,new ItemStack(TFCItems.bismuthBronzeUnshaped,8,0)));
         manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.alloyBlock,1,1), blackBronzeRaw,new ItemStack(TFCItems.blackBronzeUnshaped,8,0)));
@@ -142,6 +214,10 @@ public class ItemHeatReferences
         manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.alloyBlock,1,15), electrumRaw,new ItemStack(ModItems.electrumUnshaped,8,0)));
         manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.alloyBlock,1,16), cupronickelRaw,new ItemStack(ModItems.cupronickelUnshaped,8,0)));
         manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.alloyBlock,1,17), invarRaw,new ItemStack(ModItems.invarUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.alloyBlock,1,18), aluminumBrassRaw,new ItemStack(ModItems.aluminumBrassUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.alloyBlock,1,19), alumiteRaw,new ItemStack(ModItems.alumiteUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.alloyBlock,1,20), manyullynRaw,new ItemStack(ModItems.manyullynUnshaped,8,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModBlocks.alloyBlock,1,21), stainlessSteelRaw,new ItemStack(ModItems.stainlessSteelUnshaped,8,0)));
 
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.aluminumIngot,1), aluminumRaw,new ItemStack(ModItems.aluminumUnshaped,1)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.aluminumIngot2x,1), aluminumRaw,new ItemStack(ModItems.aluminumUnshaped,2,0)));
@@ -158,6 +234,51 @@ public class ItemHeatReferences
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.tungstenUnshaped,1), tungstenRaw,new ItemStack(ModItems.tungstenUnshaped,1)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.tungstenSheet,1), tungstenRaw,new ItemStack(ModItems.tungstenUnshaped,2,0)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.tungstenSheet2x,1), tungstenRaw,new ItemStack(ModItems.tungstenUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.cobaltIngot,1), cobaltRaw,new ItemStack(ModItems.cobaltUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.cobaltIngot2x,1), cobaltRaw,new ItemStack(ModItems.cobaltUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.cobaltUnshaped,1), cobaltRaw,new ItemStack(ModItems.cobaltUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.cobaltSheet,1), cobaltRaw,new ItemStack(ModItems.cobaltUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.cobaltSheet2x,1), cobaltRaw,new ItemStack(ModItems.cobaltUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.chromiumIngot,1), chromiumRaw,new ItemStack(ModItems.chromiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.chromiumIngot2x,1), chromiumRaw,new ItemStack(ModItems.chromiumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.chromiumUnshaped,1), chromiumRaw,new ItemStack(ModItems.chromiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.chromiumSheet,1), chromiumRaw,new ItemStack(ModItems.chromiumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.chromiumSheet2x,1), chromiumRaw,new ItemStack(ModItems.chromiumUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.titaniumIngot,1), titaniumRaw,new ItemStack(ModItems.titaniumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.titaniumIngot2x,1), titaniumRaw,new ItemStack(ModItems.titaniumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.titaniumUnshaped,1), titaniumRaw,new ItemStack(ModItems.titaniumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.titaniumSheet,1), titaniumRaw,new ItemStack(ModItems.titaniumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.titaniumSheet2x,1), titaniumRaw,new ItemStack(ModItems.titaniumUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.lithiumIngot,1), lithiumRaw,new ItemStack(ModItems.lithiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.lithiumIngot2x,1), lithiumRaw,new ItemStack(ModItems.lithiumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.lithiumUnshaped,1), lithiumRaw,new ItemStack(ModItems.lithiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.lithiumSheet,1), lithiumRaw,new ItemStack(ModItems.lithiumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.lithiumSheet2x,1), lithiumRaw,new ItemStack(ModItems.lithiumUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.magnesiumIngot,1), magnesiumRaw,new ItemStack(ModItems.magnesiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.magnesiumIngot2x,1), magnesiumRaw,new ItemStack(ModItems.magnesiumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.magnesiumUnshaped,1), magnesiumRaw,new ItemStack(ModItems.magnesiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.magnesiumSheet,1), magnesiumRaw,new ItemStack(ModItems.magnesiumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.magnesiumSheet2x,1), magnesiumRaw,new ItemStack(ModItems.magnesiumUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.manganeseIngot,1), manganeseRaw,new ItemStack(ModItems.manganeseUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.manganeseIngot2x,1), manganeseRaw,new ItemStack(ModItems.manganeseUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.manganeseUnshaped,1), manganeseRaw,new ItemStack(ModItems.manganeseUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.manganeseSheet,1), manganeseRaw,new ItemStack(ModItems.manganeseUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.manganeseSheet2x,1), manganeseRaw,new ItemStack(ModItems.manganeseUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.molybdenumIngot,1), molybdenumRaw,new ItemStack(ModItems.molybdenumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.molybdenumIngot2x,1), molybdenumRaw,new ItemStack(ModItems.molybdenumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.molybdenumUnshaped,1), molybdenumRaw,new ItemStack(ModItems.molybdenumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.molybdenumSheet,1), molybdenumRaw,new ItemStack(ModItems.molybdenumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.molybdenumSheet2x,1), molybdenumRaw,new ItemStack(ModItems.molybdenumUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.cadmiumIngot,1), cadmiumRaw,new ItemStack(ModItems.cadmiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.cadmiumIngot2x,1), cadmiumRaw,new ItemStack(ModItems.cadmiumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.cadmiumUnshaped,1), cadmiumRaw,new ItemStack(ModItems.cadmiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.cadmiumSheet,1), cadmiumRaw,new ItemStack(ModItems.cadmiumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.cadmiumSheet2x,1), cadmiumRaw,new ItemStack(ModItems.cadmiumUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.iridiumIngot,1), iridiumRaw,new ItemStack(ModItems.iridiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.iridiumIngot2x,1), iridiumRaw,new ItemStack(ModItems.iridiumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.iridiumUnshaped,1), iridiumRaw,new ItemStack(ModItems.iridiumUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.iridiumSheet,1), iridiumRaw,new ItemStack(ModItems.iridiumUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.iridiumSheet2x,1), iridiumRaw,new ItemStack(ModItems.iridiumUnshaped,4,0)));
 
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.electrumIngot,1), electrumRaw,new ItemStack(ModItems.electrumUnshaped,1)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.electrumIngot2x,1), electrumRaw,new ItemStack(ModItems.electrumUnshaped,2,0)));
@@ -174,5 +295,25 @@ public class ItemHeatReferences
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.invarUnshaped,1), invarRaw,new ItemStack(ModItems.invarUnshaped,1)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.invarSheet,1), invarRaw,new ItemStack(ModItems.invarUnshaped,2,0)));
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.invarSheet2x,1), invarRaw,new ItemStack(ModItems.invarUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.aluminumBrassIngot,1), aluminumBrassRaw,new ItemStack(ModItems.aluminumBrassUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.aluminumBrassIngot2x,1), aluminumBrassRaw,new ItemStack(ModItems.aluminumBrassUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.aluminumBrassUnshaped,1), aluminumBrassRaw,new ItemStack(ModItems.aluminumBrassUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.aluminumBrassSheet,1), aluminumBrassRaw,new ItemStack(ModItems.aluminumBrassUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.aluminumBrassSheet2x,1), aluminumBrassRaw,new ItemStack(ModItems.aluminumBrassUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.alumiteIngot,1), alumiteRaw,new ItemStack(ModItems.alumiteUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.alumiteIngot2x,1), alumiteRaw,new ItemStack(ModItems.alumiteUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.alumiteUnshaped,1), alumiteRaw,new ItemStack(ModItems.alumiteUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.alumiteSheet,1), alumiteRaw,new ItemStack(ModItems.alumiteUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.alumiteSheet2x,1), alumiteRaw,new ItemStack(ModItems.alumiteUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.manyullynIngot,1), manyullynRaw,new ItemStack(ModItems.manyullynUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.manyullynIngot2x,1), manyullynRaw,new ItemStack(ModItems.manyullynUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.manyullynUnshaped,1), manyullynRaw,new ItemStack(ModItems.manyullynUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.manyullynSheet,1), manyullynRaw,new ItemStack(ModItems.manyullynUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.manyullynSheet2x,1), manyullynRaw,new ItemStack(ModItems.manyullynUnshaped,4,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.stainlessSteelIngot,1), stainlessSteelRaw,new ItemStack(ModItems.stainlessSteelUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.stainlessSteelIngot2x,1), stainlessSteelRaw,new ItemStack(ModItems.stainlessSteelUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.stainlessSteelUnshaped,1), stainlessSteelRaw,new ItemStack(ModItems.stainlessSteelUnshaped,1)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.stainlessSteelSheet,1), stainlessSteelRaw,new ItemStack(ModItems.stainlessSteelUnshaped,2,0)));
+        manager.addIndex(new HeatIndex(new ItemStack(ModItems.stainlessSteelSheet2x,1), stainlessSteelRaw,new ItemStack(ModItems.stainlessSteelUnshaped,4,0)));
     }
 }

@@ -2,11 +2,8 @@ package com.technode.technodetoolstfc.core;
 
 import com.technode.technodetoolstfc.block.*;
 import com.technode.technodetoolstfc.core.utility.LogHelper;
-import com.technode.technodetoolstfc.item.itemBlock.ItemAlloyBlock1;
-import com.technode.technodetoolstfc.item.itemBlock.ItemMetalBlock1;
+import com.technode.technodetoolstfc.item.itemBlock.*;
 
-import com.technode.technodetoolstfc.item.itemBlock.ItemMetalOreBlock;
-import com.technode.technodetoolstfc.item.itemBlock.ItemMineralOreBlock;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -14,6 +11,7 @@ import net.minecraft.block.material.Material;
 public class ModBlocks
 {
     public static Block metalBlock;
+    public static Block metalBlock2;
     public static Block alloyBlock;
     public static Block oreMod;
     public static Block oreMineralMod;
@@ -31,6 +29,7 @@ public class ModBlocks
     {
         alloyBlock = new BlockAlloy(Material.iron) {}.setHardness(16F).setResistance(10F).setStepSound(Block.soundTypeMetal).setBlockName("AlloyBlock");
         metalBlock = new BlockMetal(Material.iron) {}.setHardness(16F).setResistance(10F).setStepSound(Block.soundTypeMetal).setBlockName("MetalBlock");
+        metalBlock2 = new BlockMetal2(Material.iron) {}.setHardness(16F).setResistance(10F).setStepSound(Block.soundTypeMetal).setBlockName("MetalBlock");
         oreMod = new BlockMetalOre(Material.iron) {}.setHardness(10F).setResistance(10F).setBlockName("Ore");
         oreMineralMod = new BlockMineralOre(Material.iron) {}.setHardness(10F).setResistance(10F).setBlockName("Ore");
         metalSheetMod = new BlockMetalSheetMod().setBlockName("MetalSheet").setHardness(1);
@@ -49,6 +48,7 @@ public class ModBlocks
     public static void registerBlocks()
     {
         GameRegistry.registerBlock(metalBlock, ItemMetalBlock1.class, "metalBlock");
+        GameRegistry.registerBlock(metalBlock2, ItemMetalBlock2.class, "metalBlock2");
         GameRegistry.registerBlock(alloyBlock, ItemAlloyBlock1.class, "alloyBlock");
         GameRegistry.registerBlock(oreMod, ItemMetalOreBlock.class, "metalOre");
         GameRegistry.registerBlock(oreMineralMod, ItemMineralOreBlock.class, "mineralOre");

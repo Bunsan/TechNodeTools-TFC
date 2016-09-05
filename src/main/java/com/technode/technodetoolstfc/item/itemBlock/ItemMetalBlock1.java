@@ -16,7 +16,7 @@ public class ItemMetalBlock1 extends ItemMetalBlock
     {
         super(b);
         metaNames = new String[Reference.METALS_ALL.length];
-        System.arraycopy(Reference.METALS_ALL, 0, metaNames, 0, Reference.METALS_ALL.length);
+        System.arraycopy(Reference.METALS_ALL, 0, metaNames, 0, 16);
         setFolder("metal/");
     }
 
@@ -41,6 +41,7 @@ public class ItemMetalBlock1 extends ItemMetalBlock
             case 12: return Reference.ALUMINUM;
             case 13: return Reference.OSMIUM;
             case 14: return Reference.TUNGSTEN;
+            case 15: return Reference.COBALT;
         }
         return null;
     }

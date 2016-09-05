@@ -31,18 +31,18 @@ public class ItemHeatReferences
         HeatRaw steelRaw = new HeatRaw(0.35, 1540);//sh = 0.63F; boil = 3500; melt = 1540;
         HeatRaw tinRaw = new HeatRaw(0.14, 230);
         HeatRaw zincRaw = new HeatRaw(0.21, 420);//sh = 0.66F; boil = 907; melt = 420;
-        HeatRaw osmiumRaw = new HeatRaw(0.35, 2000);
+        HeatRaw osmiumRaw = new HeatRaw(0.35, 1900); //actual is 3027
         HeatRaw aluminumRaw = new HeatRaw(0.35, 980);
-        HeatRaw tungstenRaw = new HeatRaw(0.35, 2000);
-        HeatRaw cobaltRaw = new HeatRaw(0.35, 1000);
-        HeatRaw chromiumRaw = new HeatRaw(0.35, 1000);
-        HeatRaw titaniumRaw = new HeatRaw(0.35, 1000);
-        HeatRaw lithiumRaw = new HeatRaw(0.35, 1000);
-        HeatRaw magnesiumRaw = new HeatRaw(0.35, 1000);
-        HeatRaw manganeseRaw = new HeatRaw(0.35, 1000);
-        HeatRaw molybdenumRaw = new HeatRaw(0.35, 1000);
-        HeatRaw cadmiumRaw = new HeatRaw(0.35, 1000);
-        HeatRaw iridiumRaw = new HeatRaw(0.35, 1000);
+        HeatRaw tungstenRaw = new HeatRaw(0.35, 2000); //actual is 3422
+        HeatRaw cobaltRaw = new HeatRaw(0.48, 1495);
+        HeatRaw chromiumRaw = new HeatRaw(0.48, 1907);
+        HeatRaw titaniumRaw = new HeatRaw(0.35, 1668);
+        HeatRaw lithiumRaw = new HeatRaw(0.14, 180);
+        HeatRaw magnesiumRaw = new HeatRaw(0.35, 650);
+        HeatRaw manganeseRaw = new HeatRaw(0.35, 1246);
+        HeatRaw molybdenumRaw = new HeatRaw(0.35, 1900); //actual is 2623
+        HeatRaw cadmiumRaw = new HeatRaw(0.35, 321);
+        HeatRaw iridiumRaw = new HeatRaw(0.35, 1900); //actual is 2447
 
         HeatRaw bismuthBronzeRaw = new HeatRaw(0.35, 985);
         HeatRaw blackBronzeRaw = new HeatRaw(0.35, 1070);
@@ -62,10 +62,10 @@ public class ItemHeatReferences
         HeatRaw electrumRaw = new HeatRaw(0.55, 1060);
         HeatRaw cupronickelRaw = new HeatRaw(0.48, 1453);
         HeatRaw invarRaw = new HeatRaw(0.48, 1535);
-        HeatRaw aluminumBrassRaw = new HeatRaw(0.48, 1535);
-        HeatRaw alumiteRaw = new HeatRaw(0.48, 1535);
-        HeatRaw manyullynRaw = new HeatRaw(0.48, 1535);
-        HeatRaw stainlessSteelRaw = new HeatRaw(0.48, 1535);
+        HeatRaw aluminumBrassRaw = new HeatRaw(0.48, 1000);
+        HeatRaw alumiteRaw = new HeatRaw(0.48, 1200);
+        HeatRaw manyullynRaw = new HeatRaw(0.48, 1700);
+        HeatRaw stainlessSteelRaw = new HeatRaw(0.48, 1450);
 
 
         manager.addIndex(new HeatIndex(new ItemStack(ModItems.oreChunk,1,0), osmiumRaw,new ItemStack(ModItems.osmiumUnshaped,1)));

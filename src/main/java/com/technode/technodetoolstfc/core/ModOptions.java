@@ -48,6 +48,8 @@ public class ModOptions {
 
     //Crafting
     public static boolean enableNuggetCrafting = true;
+    public static boolean enableAluminumMelting = false;
+
     //Alloys
     public static boolean enableElectrum = true;
     public static boolean enableCuproNickel = true;
@@ -92,6 +94,8 @@ public class ModOptions {
 
         //Crafting
         enableNuggetCrafting = getBooleanFor(config, CRAFTING, "EnableNuggetCrafting", enableNuggetCrafting, "Set to true to allow metal nuggets (10 units) to be crafted with chisel.");
+        enableAluminumMelting = getBooleanFor(config, CRAFTING, "EnableAluminumMelting", enableAluminumMelting, "Set to true to allow aluminum ore to melt in crucible.");
+
         //Alloys
         enableElectrum = getBooleanFor(config, CRAFTING, "EnableElectrum", enableElectrum, "Set to true to allow electrum alloy crafting.");
         enableCuproNickel = getBooleanFor(config, CRAFTING, "EnableCuproNickel", enableCuproNickel, "Set to true to allow cupronikel (constantan) alloy crafting.");

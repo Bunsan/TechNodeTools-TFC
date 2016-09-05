@@ -59,24 +59,28 @@ public class Recipes {
             GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 22), new ItemStack(ModItems.cadmiumIngot), "itemChisel"));
             GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 23), new ItemStack(ModItems.iridiumIngot), "itemChisel"));
 
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 0), new ItemStack(TFCItems.bismuthBronzeIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 1), new ItemStack(TFCItems.blackBronzeIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 2), new ItemStack(TFCItems.blackSteelIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 3), new ItemStack(TFCItems.blueSteelIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 4), new ItemStack(TFCItems.brassIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 5), new ItemStack(TFCItems.bronzeIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 6), new ItemStack(TFCItems.highCarbonBlackSteelIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 7), new ItemStack(TFCItems.highCarbonBlueSteelIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 8), new ItemStack(TFCItems.highCarbonRedSteelIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 9), new ItemStack(TFCItems.redSteelIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 10), new ItemStack(TFCItems.roseGoldIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 11), new ItemStack(TFCItems.sterlingSilverIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 12), new ItemStack(TFCItems.weakSteelIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 13), new ItemStack(TFCItems.weakBlueSteelIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 14), new ItemStack(TFCItems.weakRedSteelIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 15), new ItemStack(ModItems.electrumIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 16), new ItemStack(ModItems.cupronickelIngot), "itemChisel"));
-            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallMetalChunk, 10, 17), new ItemStack(ModItems.invarIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 0), new ItemStack(TFCItems.bismuthBronzeIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 1), new ItemStack(TFCItems.blackBronzeIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 2), new ItemStack(TFCItems.blackSteelIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 3), new ItemStack(TFCItems.blueSteelIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 4), new ItemStack(TFCItems.brassIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 5), new ItemStack(TFCItems.bronzeIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 6), new ItemStack(TFCItems.highCarbonBlackSteelIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 7), new ItemStack(TFCItems.highCarbonBlueSteelIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 8), new ItemStack(TFCItems.highCarbonRedSteelIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 9), new ItemStack(TFCItems.redSteelIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 10), new ItemStack(TFCItems.roseGoldIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 11), new ItemStack(TFCItems.sterlingSilverIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 12), new ItemStack(TFCItems.weakSteelIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 13), new ItemStack(TFCItems.weakBlueSteelIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 14), new ItemStack(TFCItems.weakRedSteelIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 15), new ItemStack(ModItems.electrumIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 16), new ItemStack(ModItems.cupronickelIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 17), new ItemStack(ModItems.invarIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 18), new ItemStack(ModItems.aluminumBrassIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 19), new ItemStack(ModItems.alumiteIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 20), new ItemStack(ModItems.manyullynIngot), "itemChisel"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.smallAlloyChunk, 10, 21), new ItemStack(ModItems.stainlessSteelIngot), "itemChisel"));
         }
 
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.aluminumUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.aluminumIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
@@ -95,6 +99,10 @@ public class Recipes {
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.electrumUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.electrumIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cupronickelUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.cupronickelIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.invarUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.invarIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.aluminumBrassUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.aluminumBrassIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.alumiteUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.alumiteUnshaped, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.manyullynUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.manyullynIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.stainlessSteelUnshaped, 1, 0), getStackNoTemp(new ItemStack(ModItems.stainlessSteelIngot, 1)), new ItemStack(TFCItems.ceramicMold, 1, 1));
 
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.aluminumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.aluminumUnshaped, 1)));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.osmiumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.osmiumUnshaped, 1)));
@@ -111,8 +119,11 @@ public class Recipes {
 
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.electrumIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.electrumUnshaped, 1)));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cupronickelIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.cupronickelUnshaped, 1)));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cupronickelIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.cupronickelUnshaped, 1)));
-
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.invarIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.invarUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.aluminumBrassIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.aluminumBrassUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.alumiteIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.alumiteUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.manyullynIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.manyullynUnshaped, 1)));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.stainlessSteelIngot, 1, 0), getStackNoTemp(new ItemStack(ModItems.stainlessSteelUnshaped, 1)));
     }
 
     public static ItemStack getStackNoTemp(ItemStack is) {
@@ -176,6 +187,10 @@ public class Recipes {
         manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.electrumSheet2x), new ItemStack(ModItems.electrumSheet2x), "block", AnvilReq.STONE, new ItemStack(ModBlocks.alloyBlock, 1, 9)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
         manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.cupronickelSheet2x), new ItemStack(ModItems.cupronickelSheet2x), "block", AnvilReq.STONE, new ItemStack(ModBlocks.alloyBlock, 1, 10)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
         manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.invarSheet2x), new ItemStack(ModItems.invarSheet2x), "block", AnvilReq.STONE, new ItemStack(ModBlocks.alloyBlock, 1, 11)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.aluminumBrassSheet2x), new ItemStack(ModItems.aluminumBrassSheet2x), "block", AnvilReq.BRONZE, new ItemStack(ModBlocks.alloyBlock, 1, 12)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.alumiteSheet2x), new ItemStack(ModItems.alumiteSheet2x), "block", AnvilReq.STONE, new ItemStack(ModBlocks.alloyBlock, 1, 13)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.manyullynSheet2x), new ItemStack(ModItems.manyullynSheet2x), "block", AnvilReq.STONE, new ItemStack(ModBlocks.alloyBlock, 1, 14)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
+        manager.addRecipe(new AnvilRecipe(new ItemStack(ModItems.stainlessSteelSheet2x), new ItemStack(ModItems.stainlessSteelSheet2x), "block", AnvilReq.STONE, new ItemStack(ModBlocks.alloyBlock, 1, 15)).addRecipeSkill(Global.SKILL_GENERAL_SMITHING).setCraftingXP(1));
     }
     private static void addTrapDoor(Item sheet, int index) {
         AnvilManager manager = AnvilManager.getInstance();
